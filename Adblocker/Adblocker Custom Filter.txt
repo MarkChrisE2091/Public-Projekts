@@ -1,0 +1,73 @@
+! ----------Unwanted page elements----------!
+fandom.com##DIV[class="mcf-wrapper"]
+fandom.com##DIV[id="articleComments"]
+google.com##DIV[class="vcVZ7d"]
+google.com##DIV[class="yY3Lee"]
+google.com##DIV[class="qQfHId"]
+google.com##DIV[class="szppmdbYutt__middle-slot-promo"]
+google.com##DIV[id="doodle"]
+google.com##DIV[id="imageDoodle"]
+google.com##DIV[id="hplogo"]
+youtube.com##ytd-comments[id="comments"]
+youtube.com##yt-live-chat-app
+youtube.com##.ytp-ce-element
+youtube.com##.ytd-popup-container
+outlook.live.com##DIV[class="GssDD"]
+www.bing.com##DIV[id="vs_cont"][class="vs_cont"]
+www.tutorialspoint.com##DIV[id="divResources"]
+www.thebalancemoney.com##SECTION[id="recirc-section_1-0"][class="comp recirc-section"]
+www.geeksforgeeks.org##DIV[class="modal-container"]
+www.geeksforgeeks.org##DIV[class="login-modal-div"]
+www.w3schools.com##IMG[id="lowerfeatureshowcase300"][src="/images/img_bootcamp_green_300.png"]
+www.w3schools.com##IMG[src="/spaces/dynamicspaces.gif"]
+www.w3schools.com##IMG[src="/spaces/tutor_template.png"]
+www.w3schools.com##IMG[id="lowerfeatureshowcase300"][src="/images/img_certification_down_generic_python_300.png"]
+
+www.discover.com##DIV[class="dmpherobanner aem-GridColumn aem-GridColumn--default--12"]
+www.discover.com##DIV[class="dmp-tile-wrapper dmp-tile-wrapper dmp-img-link dmp-box-c-img default-content right-top-yellow-curve"]
+www.discover.com##DIV[class="dmp-tile-wrapper dmp-tile-wrapper dmp-img-link dmp-box-d-img default-content left-top-curve"]
+www.discover.com##DIV[class="col-md-6 col-sm-6 col-xs-12 right-section"]
+card.discover.com##DIV[class="at-overlay-bg"]
+portal.discover.com##DIV[class="logout-banner__bg logout-banner__bg--alert"]
+portal.discover.com##IMG[src="/applications/logoff-page/images/jdp_TimedOut_496x546.jpg"]
+portal.discover.com##IMG[class="adobe-image-width"][src="/applications/logoff-page/images/TimedOut_496x546.jpg"]
+www.mycreditguide.americanexpress.com##DIV[id="AmexPromoBanner"]
+www.cnbc.com##DIV[class="SidebarArticle-sticky"]
+www.sec.gov##IMG[class="align-center"][src="/files/inline-images/UsingSearch4.png"]
+www.sec.gov##IMG[src="/files/Bike_Family_Final-Hero_11-03-17.jpg"]
+www.sec.gov##DIV[class="views-element-container block region__inner homepage_featured_stories-sec_stories"]
+www.sec.gov##DIV[class="views-row row-1"]
+cmegroup.com##SECTION[class="popup bottom-left slide-top"]
+www.rockymountainpower.net##IMG[class="cmp-image__image image image--auto"][src="https://www.rockymountainpower.net/my-account/energy-usage/meter-upgrade/_jcr_content/root/responsivegrid/responsivegrid/responsivegrid/responsivegrid_1184403108/image.coreimg.jpeg/1631721629783.jpeg"]
+www.speedtest.net##IMG[alt="GROUP BLACK logo"]
+www.speedtest.net##P[class="u-smaller"]
+quizlet.com##DIV[class="PrismicFullBleedImageCard PrismicFullBleedImageCard--colorCustom"]
+ethnicelebs.com##DIV[id="widget_featured-posts-5"][class="widget widget_featured-posts"]
+ethnicelebs.com##DIV[id="widget_featured-posts-2"][class="widget widget_featured-posts"]
+ethnicelebs.com##SECTION[id="comments"][class="themeform"]
+ethnicelebs.com##DIV[id="recent-comments-4"][class="widget widget_recent_comments"]
+torrentgalaxy.to##IMG[class="img-responsive"]
+torrentgalaxy.to##DIV[style="margin-bottom:10px;"]
+torrentgalaxy.to##DIV[style="margin-bottom:12px;"]
+torrentgalaxy.to##DIV[id="intblockheader"][class="panel-heading txlight"]
+torrentgalaxy.to##DIV[id="intblockslide"][class="panel-body slidingDivb-e696f3ee9f09458c6a6d5ae230972a5785e1c10a"]
+torrentgalaxy.to##IMG[class="img-responsive hpcover"][src="https://img.wonkychickens.org/data/statics/sg/sg_nord_small.jpg"]
+torrentgalaxy.to##IMG[class="img-responsive hpcover"][src="https://img.wonkychickens.org/data/statics/sg/sg_nf_long6.jpg"]
+torrentgalaxy.to##IMG[class="img-responsive hpcover"][src="https://img.wonkychickens.org/data/statics/sg/sg_nord_long.jpg"]
+torrentgalaxy.to##DIV[class="panel-body slidingDivb-ffb8ec81b26e9123c22e2ec2bc112efcc695fd4e"]
+
+yandex.com##DIV[class="tioDFqgk tioDFqgk_type_direct tioDFqgk_position_page-fixed i-bem tioDFqgk_js_inited tioDFqgk_inserted_yes"]
+yandex.com##DIV[class="incut incut_type_direct incut_position_page-fixed i-bem incut_js_inited incut_inserted_yes"]
+www.elitebabes.com##DIV[class="double text-center"]
+www.geni.com##DIV[class="inner padding_15 mh-promo-module"]
+www.wikifeetx.com##DIV[id="thewall"]
+
+moea.io##IMG[class="Slideshow__Image hide-no-js lazyautosizes Image--lazyLoaded"]
+hm.com##DIV[class="MyRewardsList--container__3eeek"]
+rivian.com##DIV[class="rivian-css-1r7ul4t ex0cmdc0"]
+
+! ----------Unwanted URL requests----------!
+||www.google.com/logos/doodles/*
+
+
+
