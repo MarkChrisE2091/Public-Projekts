@@ -14,7 +14,7 @@ youtube.com##ytm-comments-entry-point-header-renderer
 youtube.com##yt-live-chat-app
 youtube.com##.ytp-ce-element
 youtube.com##.ytd-popup-container
-youtube.com##tp-yt-iron-overlay-backdrop
+
 outlook.live.com##DIV[class="GssDD"]
 bing.com##DIV[id="vs_cont"][class="vs_cont"]
 tutorialspoint.com##DIV[id="divResources"]
