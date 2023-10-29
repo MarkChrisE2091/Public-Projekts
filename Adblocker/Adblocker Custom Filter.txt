@@ -13,13 +13,12 @@ youtube.com##ytd-comments[id="comments"]
 youtube.com##ytm-comments-entry-point-header-renderer
 youtube.com##yt-live-chat-app
 youtube.com##.ytp-ce-element
-!youtube.com##.ytd-popup-container
-!youtube.com##tp-yt-iron-overlay-backdrop
 facebook.com##DIV[class="__fb-light-mode x1n2onr6 xzkaem6"]
 outlook.live.com##DIV[class="GssDD"]
 bing.com##DIV[id="vs_cont"][class="vs_cont"]
 tutorialspoint.com##DIV[id="divResources"]
 thebalancemoney.com##SECTION[id="recirc-section_1-0"][class="comp recirc-section"]
+verywellmind.com##DIV[id="prefooter-content_1-0"][class="comp prefooter-content mntl-block"]
 geeksforgeeks.org##DIV[class="modal-container"]
 geeksforgeeks.org##DIV[class="login-modal-div"]
 w3schools.com##IMG[id="lowerfeatureshowcase300"][src="/images/img_bootcamp_green_300.png"]
