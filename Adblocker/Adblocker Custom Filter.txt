@@ -11,11 +11,14 @@ youtube.com##ytd-comments[id="comments"]
 youtube.com##ytm-comments-entry-point-header-renderer
 youtube.com##yt-live-chat-app
 youtube.com##.ytp-ce-element
-youtube.com##.ytd-popup-container
+youtube.com##YTD-ITEM-SECTION-RENDERER[class="style-scope ytd-watch-next-secondary-results-renderer"]
+youtube.com##ytd-watch-next-secondary-results-renderer
+facebook.com##DIV[class="__fb-light-mode x1n2onr6 xzkaem6"]
 outlook.live.com##DIV[class="GssDD"]
 bing.com##DIV[id="vs_cont"][class="vs_cont"]
 tutorialspoint.com##DIV[id="divResources"]
 thebalancemoney.com##SECTION[id="recirc-section_1-0"][class="comp recirc-section"]
+verywellmind.com##DIV[id="prefooter-content_1-0"][class="comp prefooter-content mntl-block"]
 geeksforgeeks.org##DIV[class="modal-container"]
 geeksforgeeks.org##DIV[class="login-modal-div"]
 w3schools.com##IMG[src="/spaces/dynamicspaces.gif"]
@@ -33,7 +36,17 @@ discover.com##DIV[class="logout-banner__bg logout-banner__bg--alert"]
 discover.com##IMG[src="/applications/logoff-page/images/jdp_TimedOut_496x546.jpg"]
 discover.com##IMG[class="adobe-image-width"][src="/applications/logoff-page/images/TimedOut_496x546.jpg"]
 americanexpress.com##DIV[id="AmexPromoBanner"]
+<<<<<<< HEAD
+=======
+americanexpress.com##DIV[class="hero dls-white flex flex-align-left flex-justify-left } "]
+americanexpress.com##DIV[class="col-md-4 col-md-offset-0 margin-0-tb "]
+americanexpress.com##DIV[class="card-detail-image fluid"]
+>>>>>>> d3a84b5ba446847b471ea6066fdaf7bee480dc4e
 cnbc.com##DIV[class="SidebarArticle-sticky"]
+finance.yahoo.com##UL[class="My(0) P(0) Wow(bw) Ov(h)"]
+finance.yahoo.com##DIV[id="defaultLDRB2-wrapper"]
+finance.yahoo.com##DIV[class="W(100%) Maw(900px) Pos(r) Cf Wow(bw) article-cluster-boundary Mb(30px) Mb(20px)--md1100"]
+finance.yahoo.com##DIV[class="Bgc(white) Pos(r) Bxz(bb) Maw($newGridWidth) Miw($minGridWidth) Miw(a)!--tab768 Miw(a)!--tab1024 Mstart(a) Mend(a) Px(20px) Pb(10px) D(n)--print"]
 sec.gov##IMG[class="align-center"][src="/files/inline-images/UsingSearch4.png"]
 sec.gov##IMG[src="/files/Bike_Family_Final-Hero_11-03-17.jpg"]
 sec.gov##DIV[class="views-element-container block region__inner homepage_featured_stories-sec_stories"]
@@ -63,6 +76,7 @@ yadelus.ru##DIV[class="w56577ir"],DIV[class="y61feon6"],DIV[class="l0eqpebb"],DI
 moea.io##IMG[class="Slideshow__Image hide-no-js lazyautosizes Image--lazyLoaded"]
 hm.com##DIV[class="MyRewardsList--container__3eeek"]
 rivian.com##DIV[class="rivian-css-1r7ul4t ex0cmdc0"]
+rivian.com##DIV[class="rivian-css-1xzhg9w ex0cmdc11"]
 
 ! ----------Unwanted URL requests----------!
 ||www.google.com/logos/doodles/*
