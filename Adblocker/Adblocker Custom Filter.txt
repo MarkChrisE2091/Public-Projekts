@@ -1,5 +1,6 @@
 [Adblock Plus 2.0]
 ! ----------Unwanted page elements----------!
+
 fandom.com##DIV[class="mcf-wrapper"]
 fandom.com##DIV[id="articleComments"]
 google.com##DIV[class="vcVZ7d"]
