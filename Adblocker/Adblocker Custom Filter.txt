@@ -28,6 +28,8 @@ w3schools.com##IMG[src="/spaces/tutor_template.png"]
 w3schools.com##PICTURE[id="upperfeatureshowcase"]
 w3schools.com##IMG[id="lowerfeatureshowcase300"]
 
+
+smithsfoodanddrug.com##DIV[class="with-auth"]
 targetoptical.com##PICTURE[class="d-flex background"]
 targetoptical.com##IMG[src="https://media.targetoptical.com/2023/Q4/PLP-CL-espot-b-D.jpg"]
 discover.com##DIV[class="dmpherobanner aem-GridColumn aem-GridColumn--default--12"]
