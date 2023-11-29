@@ -2,6 +2,8 @@
 ! ----------Unwanted page elements----------!
 fandom.com##DIV[class="mcf-wrapper"]
 fandom.com##DIV[id="articleComments"]
+wikipedia.org##DIV[id="centralNotice"][class="cn-fundraising"]
+wikipedia.org##DIV[class="frb frb-rml-enabled"]
 google.com##DIV[class="vcVZ7d"]
 google.com##DIV[class="yY3Lee"]
 google.com##DIV[class="qQfHId"]
