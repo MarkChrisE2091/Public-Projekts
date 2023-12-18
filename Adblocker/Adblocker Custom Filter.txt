@@ -9,6 +9,7 @@ google.com##DIV[class="yY3Lee"]
 google.com##DIV[class="qQfHId"]
 google.com##DIV[class="szppmdbYutt__middle-slot-promo"]
 google.com##DIV[id="doodle"],DIV[id="imageDoodle"],DIV[id="hplogo"]
+quantumai.google##SECTION[class="qsite-footer-cta"]
 youtube.com##ytd-comments[id="comments"]
 youtube.com##ytm-comments-entry-point-header-renderer
 youtube.com##yt-live-chat-app
