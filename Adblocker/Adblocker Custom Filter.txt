@@ -77,7 +77,7 @@ yandex.com##DIV[class="JustifierRowLayout-Incut"],DIV[class="dpaF6ridF2VqHUnIjJO
 yandex.com##DIV[class="incut incut_type_direct incut_position_page-fixed i-bem incut_js_inited incut_inserted_yes"]
 yandex.com##DIV[class="DirectInline DirectInline_filled"],DIV[class="suBL9SR3jfOpEcYTS suBL9SR3jfOpEcYTS_filled"],DIV[class="dqf17vy1XaVGZaXMx dqf17vy1XaVGZaXMx_filled"]
 yandex.com##DIV[class="images-viewer-content2__behavioral-direct"]
-yandex.com##DIV[class="react-component images-viewer-content2__rim-direct-tenwvAUg tiled-images__per-line-tenwvAUg i-bem react-component_js_inited"]
+yandex.com##DIV[class^="react-component images-viewer-content2__rim-direct-"]
 yandex.com##DIV[class="tioDFqgk tioDFqgk_type_direct tioDFqgk_position_page-fixed i-bem tioDFqgk_js_inited tioDFqgk_inserted_yes"]
 sexhd.pics##DIV[class="mc"],DIV[class="pag4"],DIV[class="pag2"]
 elitebabes.com##DIV[class="double text-center"],FIGURE[class="image-banner"]
