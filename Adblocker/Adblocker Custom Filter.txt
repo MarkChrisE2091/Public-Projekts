@@ -62,7 +62,7 @@ ethnicelebs.com##DIV[id="widget_featured-posts-5"][class="widget widget_featured
 ethnicelebs.com##DIV[id="widget_featured-posts-2"][class="widget widget_featured-posts"]
 ethnicelebs.com##DIV[id="recent-comments-4"][class="widget widget_recent_comments"]
 ethnicelebs.com##SECTION[id="comments"]
-#familysearch.org##DIV[class="outerCss_odv14u3 alignYCss_a1n8riv2"]
+!familysearch.org##DIV[class="outerCss_odv14u3 alignYCss_a1n8riv2"]
 torrentgalaxy.to##DIV[style="margin-bottom:10px;"],[style="margin-bottom:12px;"]
 torrentgalaxy.to##DIV[id="intblockheader"],DIV[id="intblockslide"]
 torrentgalaxy.to##DIV[class="panel-body slidingDivb-ffb8ec81b26e9123c22e2ec2bc112efcc695fd4e"]
