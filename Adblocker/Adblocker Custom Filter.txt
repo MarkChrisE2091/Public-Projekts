@@ -16,6 +16,7 @@ youtube.com##yt-live-chat-app
 youtube.com##.ytp-ce-element
 youtube.com##YTD-ITEM-SECTION-RENDERER[class="style-scope ytd-watch-next-secondary-results-renderer"]
 youtube.com##ytd-watch-next-secondary-results-renderer
+duckduckgo.com##DIV[class="tileview-top-module js-tileview-top-module"]
 facebook.com##DIV[class="__fb-light-mode x1n2onr6 xzkaem6"]
 instagram.com##DIV[class="_acus"],DIV[class="x78zum5 xdt5ytf xg6iff7 x1n2onr6"],DIV[class="x1n2onr6 xzkaem6"]
 instagram.com##DIV[class="x6s0dn4 x18dzpp5 xoqspk4 xfh8nwu x78zum5 xds687c xmlhl5x xdt5ytf xl56j7k xixxii4 x17qophe xh8yej3 x1vjfegm x4wtnb4 x1c6gvpp"]
@@ -64,6 +65,8 @@ ethnicelebs.com##DIV[id="widget_featured-posts-5"][class="widget widget_featured
 ethnicelebs.com##DIV[id="widget_featured-posts-2"][class="widget widget_featured-posts"]
 ethnicelebs.com##DIV[id="recent-comments-4"][class="widget widget_recent_comments"]
 ethnicelebs.com##SECTION[id="comments"]
+familysearch.org##DIV[class="css-1h4yt7k"],DIV[class="css-z94dyo"],DIV[class="css-1afpzc5"],DIV[class="css-xfhniy"],DIV[class="css-wz6z2i"]
+celebritate.com##ASIDE[id="block-37"][class="widget inner-padding widget_block widget_text"]
 torrentgalaxy.to##DIV[style="margin-bottom:10px;"],[style="margin-bottom:12px;"]
 torrentgalaxy.to##DIV[id="intblockheader"],DIV[id="intblockslide"]
 torrentgalaxy.to##DIV[class="panel-body slidingDivb-ffb8ec81b26e9123c22e2ec2bc112efcc695fd4e"]
@@ -79,13 +82,14 @@ yandex.com##DIV[class="JustifierRowLayout-Incut"],DIV[class="dpaF6ridF2VqHUnIjJO
 yandex.com##DIV[class="incut incut_type_direct incut_position_page-fixed i-bem incut_js_inited incut_inserted_yes"]
 yandex.com##DIV[class="DirectInline DirectInline_filled"],DIV[class="suBL9SR3jfOpEcYTS suBL9SR3jfOpEcYTS_filled"],DIV[class="dqf17vy1XaVGZaXMx dqf17vy1XaVGZaXMx_filled"]
 yandex.com##DIV[class="images-viewer-content2__behavioral-direct"]
-yandex.com##DIV[class="react-component images-viewer-content2__rim-direct-tenwvAUg tiled-images__per-line-tenwvAUg i-bem react-component_js_inited"]
+yandex.com##DIV[class^="react-component images-viewer-content2__rim-direct-"]
 yandex.com##DIV[class="tioDFqgk tioDFqgk_type_direct tioDFqgk_position_page-fixed i-bem tioDFqgk_js_inited tioDFqgk_inserted_yes"]
 sexhd.pics##DIV[class="mc"],DIV[class="pag4"],DIV[class="pag2"]
 elitebabes.com##DIV[class="double text-center"],FIGURE[class="image-banner"]
 geni.com##DIV[class="inner padding_15 mh-promo-module"]
 wikifeetx.com##DIV[id="thewall"]
 yadelus.ru##DIV[class="w56577ir"],DIV[class="y61feon6"],DIV[class="l0eqpebb"],DIV[class="v73rf84c"],DIV[class="s_m48nc7"],DIV[class="upilss1g"],DIV[class="fe8pf14a"]
+wallhere.com##DIV[style="margin: auto;width:300px;height:250px;"]
 
 moea.io##IMG[class="Slideshow__Image hide-no-js lazyautosizes Image--lazyLoaded"]
 hm.com##DIV[class="MyRewardsList--container__3eeek"]
