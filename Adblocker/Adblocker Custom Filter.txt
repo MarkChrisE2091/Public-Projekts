@@ -45,6 +45,7 @@ targetoptical.com##IMG[src="https://media.targetoptical.com/2023/Q4/PLP-CL-espot
 discover.com##DIV[class="dmpherobanner aem-GridColumn aem-GridColumn--default--12"]
 discover.com##DIV[class="dmp-tile-wrapper dmp-tile-wrapper dmp-img-link dmp-box-c-img default-content right-top-yellow-curve"]
 discover.com##DIV[class="dmp-tile-wrapper dmp-tile-wrapper dmp-img-link dmp-box-d-img default-content left-top-curve"]
+discover.com##DIV[class="dmp-tile-wrapper dmp-tile-wrapper dmp-img-link dmp-common-img default-content no-curve"]
 discover.com##DIV[class="col-md-6 col-sm-6 col-xs-12 right-section"],DIV[class="at-overlay-bg"],DIV[class="logout-banner__bg logout-banner__bg--alert"]
 discover.com##IMG[src="/applications/logoff-page/images/jdp_TimedOut_496x546.jpg"]
 discover.com##IMG[class="adobe-image-width"][src="/applications/logoff-page/images/TimedOut_496x546.jpg"]
