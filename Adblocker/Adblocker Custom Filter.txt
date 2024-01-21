@@ -105,6 +105,8 @@ rivian.com##DIV[class^="rivian-css-1xzhg9w"]
 
 stackoverflow.com##DIV[id="onetrust-consent-sdk"]
 stackexchange.com##DIV[id="onetrust-consent-sdk"]
+superuser.com##DIV[id="onetrust-consent-sdk"]
+
 
 ! ----------Unwanted URL requests----------!
 ||www.google.com/logos/doodles/*
