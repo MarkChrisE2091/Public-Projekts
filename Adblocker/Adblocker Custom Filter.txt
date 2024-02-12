@@ -72,6 +72,7 @@ ethnicelebs.com##DIV[id="widget_featured-posts-5"][class="widget widget_featured
 ethnicelebs.com##DIV[id="widget_featured-posts-2"][class="widget widget_featured-posts"]
 ethnicelebs.com##DIV[id="recent-comments-4"][class="widget widget_recent_comments"]
 ethnicelebs.com##SECTION[id="comments"]
+ethnicelebs.com##DIV[id="block-6"][class="widget widget_block"]
 familysearch.org##DIV[class="css-1h4yt7k"],DIV[class="css-z94dyo"],DIV[class="css-1afpzc5"],DIV[class="css-xfhniy"],DIV[class="css-wz6z2i"]
 celebritate.com##ASIDE[id="block-37"][class="widget inner-padding widget_block widget_text"]
 torrentgalaxy.to##DIV[style="margin-bottom:10px;"],[style="margin-bottom:12px;"]
