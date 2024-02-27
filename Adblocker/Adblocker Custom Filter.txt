@@ -108,6 +108,7 @@ moea.io##IMG[class="Slideshow__Image hide-no-js lazyautosizes Image--lazyLoaded"
 hm.com##DIV[class="MyRewardsList--container__3eeek"]
 rivian.com##DIV[class^="rivian-css-1r7ul4t"]
 rivian.com##DIV[class^="rivian-css-1xzhg9w"]
+rivian.com##DIV[class^="rivian-css-199lmzf"]
 
 stackoverflow.com##DIV[id="onetrust-consent-sdk"]
 stackexchange.com##DIV[id="onetrust-consent-sdk"]
