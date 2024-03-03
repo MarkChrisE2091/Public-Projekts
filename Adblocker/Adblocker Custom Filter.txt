@@ -93,6 +93,7 @@ yandex.com##DIV[class="DirectInline DirectInline_filled"],DIV[class="suBL9SR3jfO
 yandex.com##DIV[class="images-viewer-content2__behavioral-direct"]
 yandex.com##DIV[class^="react-component images-viewer-content2__rim-direct-"]
 yandex.com##DIV[class="tioDFqgk tioDFqgk_type_direct tioDFqgk_position_page-fixed i-bem tioDFqgk_js_inited tioDFqgk_inserted_yes"]
+yandex.com##DIV[class^="services-feed"]
 sexhd.pics##DIV[class="mc"],DIV[class="pag4"],DIV[class="pag2"]
 elitebabes.com##DIV[class="double text-center"],FIGURE[class="image-banner"]
 pornpics.hair##DIV[class="r6"],DIV[class="cm"],DIV[class="r5"],DIV[class="t2"],DIV[class="t4"]
