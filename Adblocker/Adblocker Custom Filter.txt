@@ -124,4 +124,6 @@ askubuntu.com##DIV[id="onetrust-consent-sdk"]
 ||www.google.com/logos/doodles/*
 
 
+! ----------Unblock Exceptions----------!
+@@||investopedia.com/*^$document
 
