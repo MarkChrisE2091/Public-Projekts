@@ -108,7 +108,7 @@ yandex.com##DIV[class="tioDFqgk tioDFqgk_type_direct tioDFqgk_position_page-fixe
 yandex.com##DIV[class^="services-feed"]
 yandex.com##IMG[alt="Street art"]
 sexy-models.net##DIV[class="top-text-header"],DIV[class="new-sidebar-wrap"],LI[id="pis_posts_in_sidebar-2"][class="widget posts-in-sidebar"],A[href="https://www.indoreescorts.me/"]
-sexhd.pics##DIV[class="mc"],DIV[class="pag4"],DIV[class="pag2"]
+sexhd.pics##DIV[class="mc"],DIV[class="pag4"],DIV[class="pag2"],DIV[class="menu"],DIV[class="pag"],DIV[class="flex1"],DIV[class="flex2"]
 elitebabes.com##DIV[class="double text-center"],FIGURE[class="image-banner"]
 pornpics.hair##DIV[class="r6"],DIV[class="cm"],DIV[class="r5"],DIV[class="t2"],DIV[class="t4"]
 pornpics.pictures##DIV[class="pp"],DIV[class="cm"],DIV[class="m2"],DIV[class="t2"],DIV[class="t4"],DIV[class="t6"],DIV[class="t7"]
