@@ -22,6 +22,7 @@ youtube.com##.ytp-ce-element
 youtube.com##YTD-ITEM-SECTION-RENDERER[class="style-scope ytd-watch-next-secondary-results-renderer"]
 youtube.com##ytd-watch-next-secondary-results-renderer
 youtube.com##A[class="ytp-featured-product-container"]
+youtube.com##DIV[id="below"][class="style-scope ytd-watch-grid"]
 duckduckgo.com##DIV[class="tileview-top-module js-tileview-top-module"]
 facebook.com##DIV[class="__fb-light-mode x1n2onr6 xzkaem6"]
 instagram.com##DIV[class="_acus"],DIV[class="x78zum5 xdt5ytf xg6iff7 x1n2onr6"],DIV[class="x1n2onr6 xzkaem6"]
@@ -59,6 +60,8 @@ discover.com##IMG[src="/applications/logoff-page/images/jdp_TimedOut_496x546.jpg
 discover.com##IMG[class="adobe-image-width"][src="/applications/logoff-page/images/TimedOut_496x546.jpg"]
 americanexpress.com##DIV[id="AmexPromoBanner"],DIV[class="card-detail-image fluid"],DIV[class="col-md-4 col-md-offset-0 margin-0-tb "]
 americanexpress.com##DIV[class="hp-cm-top-wrapper csr-banner-cls-container"],DIV[class="carousel-container "]
+schwab.com##DIV[class="smart-banner-container col-4 col-s-full col--align-stretch"]
+schwab.com##ASIDE[class="smart-banners col-full sdps-grid-container sdps-wrap"]
 cnbc.com##DIV[class="SidebarArticle-sticky"]
 finance.yahoo.com##UL[class="My(0) P(0) Wow(bw) Ov(h)"]
 finance.yahoo.com##DIV[id="defaultLDRB2-wrapper"],DIV[id="sda-E2E"]
