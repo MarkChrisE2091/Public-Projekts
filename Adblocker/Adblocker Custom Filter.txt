@@ -60,13 +60,10 @@ discover.com##IMG[src="/applications/logoff-page/images/jdp_TimedOut_496x546.jpg
 discover.com##IMG[class="adobe-image-width"][src="/applications/logoff-page/images/TimedOut_496x546.jpg"]
 americanexpress.com##DIV[id="AmexPromoBanner"],DIV[class="card-detail-image fluid"],DIV[class="col-md-4 col-md-offset-0 margin-0-tb "]
 americanexpress.com##DIV[class="hp-cm-top-wrapper csr-banner-cls-container"],DIV[class="carousel-container "]
-<<<<<<< HEAD
 schwab.com##DIV[class="smart-banner-container col-4 col-s-full col--align-stretch"]
 schwab.com##ASIDE[class="smart-banners col-full sdps-grid-container sdps-wrap"]
-=======
 fidelity.com##IMG[src="https://www.fidelity.com/bin-public/060_www_fidelity_com/images/newphp/trading-invest-img.png"]
 fidelity.com##IMG[src="https://www.fidelity.com/bin-public/060_www_fidelity_com/images/newphp/managed.png"]
->>>>>>> 8288c64c9659e5dfda92524392b82d16987efe74
 cnbc.com##DIV[class="SidebarArticle-sticky"]
 finance.yahoo.com##UL[class="My(0) P(0) Wow(bw) Ov(h)"]
 finance.yahoo.com##DIV[id="defaultLDRB2-wrapper"],DIV[id="sda-E2E"]
