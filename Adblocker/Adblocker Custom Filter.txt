@@ -80,6 +80,7 @@ simplywall.st##IMG[src="https://simplywall.st/cdn-cgi/image/format=auto,fit=cove
 sec.gov##IMG[class="align-center"][src="/files/inline-images/UsingSearch4.png"],IMG[src="/files/Bike_Family_Final-Hero_11-03-17.jpg"]
 sec.gov##DIV[class="views-element-container block region__inner homepage_featured_stories-sec_stories"],DIV[class="views-row row-1"],DIV[class="region region-page-title-region"]
 cmegroup.com##SECTION[class="popup bottom-left slide-top"]
+gurufocus.com##DIV[class="v-modal"],DIV[class="el-dialog__body"],DIV[class="el-dialog__wrapper gf"]
 rockymountainpower.net##IMG[class="cmp-image__image image image--auto"],DIV[class="hero hero--default"]
 speedtest.net##IMG[alt="GROUP BLACK logo"],P[class="u-smaller"]
 quizlet.com##DIV[class="PrismicFullBleedImageCard PrismicFullBleedImageCard--colorCustom"]
@@ -146,6 +147,7 @@ stackoverflow.com##DIV[id="onetrust-consent-sdk"]
 stackexchange.com##DIV[id="onetrust-consent-sdk"]
 superuser.com##DIV[id="onetrust-consent-sdk"]
 askubuntu.com##DIV[id="onetrust-consent-sdk"]
+diffchecker.com##DIV[class^="ad-native-single"]
 
 ! ----------Unwanted URL requests----------!
 ||www.google.com/logos/doodles/*
