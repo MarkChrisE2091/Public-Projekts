@@ -49,6 +49,7 @@ finviz.com##DIV[id="IC_D_3x3_1"],DIV[id="banner_position"]
 openai.com##IMG[src="https://cdn.openai.com/labs/images/A van Gogh style painting of an American football player.webp?v=1"]
 ptable.com##SECTION[id="Notice"][class="Notice"]
 python.org##UL[class="footer-links navigation menu do-not-print"],A[href="/community/diversity/"]
+claude.ai##DIV[class="flex md:px-2 flex-col-reverse"]
 
 smithsfoodanddrug.com##DIV[class="with-auth"]
 targetoptical.com##PICTURE[class="d-flex background"]
