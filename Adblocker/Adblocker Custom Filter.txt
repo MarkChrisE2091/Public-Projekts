@@ -21,6 +21,7 @@ youtube.com##yt-live-chat-app
 youtube.com##.ytp-ce-element
 youtube.com##YTD-ITEM-SECTION-RENDERER[class="style-scope ytd-watch-next-secondary-results-renderer"]
 youtube.com##YTD-REEL-SHELF-RENDERER[class="style-scope ytd-structured-description-content-renderer"]
+youtube.com##YTM-REEL-SHELF-RENDERER[class="modern-typography"]
 youtube.com##ytd-watch-next-secondary-results-renderer
 youtube.com##A[class="ytp-featured-product-container"]
 youtube.com##DIV[id="below"][class="style-scope ytd-watch-grid"]
