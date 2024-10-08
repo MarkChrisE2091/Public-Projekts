@@ -101,7 +101,7 @@ torrentgalaxy.to##DIV[style="margin-bottom:10px;"],[style="margin-bottom:12px;"]
 torrentgalaxy.to##DIV[id="intblockheader"],DIV[id="intblockslide"]
 torrentgalaxy.to##DIV[class="panel-body slidingDivb-ffb8ec81b26e9123c22e2ec2bc112efcc695fd4e"]
 torrentgalaxy.to##IMG[class="img-responsive hpcover"],IMG[class="img-responsive"]
-ext.to##A[id="dontfoid"]
+ext.to##A[id="dontfoid"],DIV[id="dontfoid"]
 
 
 yandex.com##DIV[class="AdvMastHead"],DIV[class="AdvRsyaCrossPage"]
