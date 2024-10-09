@@ -157,6 +157,8 @@ superuser.com##DIV[id="onetrust-consent-sdk"]
 askubuntu.com##DIV[id="onetrust-consent-sdk"]
 diffchecker.com##DIV[class^="ad-native-single"]
 
+minimalistbaker.com##DIV[id="comments"]
+
 ! ----------Unwanted URL requests----------!
 ||www.google.com/logos/doodles/*
 
