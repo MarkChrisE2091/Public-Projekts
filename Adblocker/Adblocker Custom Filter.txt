@@ -1,8 +1,9 @@
 [Adblock Plus 2.0]
 ! ----------Unwanted page elements----------!
 fandom.com##DIV[class="mcf-wrapper"]
-fandom.com##DIV[class="recirculation-prefooter"]
 fandom.com##DIV[id="articleComments"]
+fandom.com##DIV[class="notifications-box"]
+fandom.com##DIV[class="recirculation-prefooter"]
 wikipedia.org##DIV[class="frb frb-rml-enabled"]
 wikipedia.org##DIV[class="vector-sitenotice-container"]
 wikimedia.org,wikipedia.org,wiktionary.org##DIV[id="siteNotice"],DIV[id="centralNotice"]
