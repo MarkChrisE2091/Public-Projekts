@@ -49,6 +49,7 @@ cjeatsrecipes.com##DIV[class^="block-about cwp-large"],DIV[class="post-header__i
 thewoksoflife.com##DIV[class="image"],DIV[class="articles-container flexbox"],DIV[id="wpdcom"],SECTION[class="author-box"]
 bestbuy.com##SPAN[class="blue-assist-minimized-beacon"]
 amazon.com##DIV[id="PrimeStripe"]
+amazon.com##DIV[id="prominentUpsellSlotCard"]
 companiesmarketcap.com##TR[class="ad-tr no-sort"],DIV[class="b-container1"],DIV[align="center"]
 finviz.com##DIV[id="IC_D_3x3_1"],DIV[id="banner_position"]
 openai.com##IMG[src="https://cdn.openai.com/labs/images/A van Gogh style painting of an American football player.webp?v=1"]
