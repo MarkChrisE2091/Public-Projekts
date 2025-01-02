@@ -89,7 +89,7 @@ finance.yahoo.com##DIV[id="slingstoneStream-0-Stream"][class="tdv2-applet-stream
 finance.yahoo.com##DIV[class="W(100%) Maw(900px) Pos(r) Cf Wow(bw) article-cluster-boundary Mb(30px) Mb(20px)--md1100"]
 finance.yahoo.com##DIV[class="Bgc(white) Pos(r) Bxz(bb) Maw($newGridWidth) Miw($minGridWidth) Miw(a)!--tab768 Miw(a)!--tab1024 Mstart(a) Mend(a) Px(20px) Pb(10px) D(n)--print"]
 finance.yahoo.com##SECTION[class^="module-hero"],SECTION[class^="module-watch-now"],SECTION[class^="module-news-stream"],SECTION[class^="module-personal-finance"]
-finance.yahoo.com##SECTION[data-testid^="recent-news"],SECTION[class^="footer"]
+finance.yahoo.com##SECTION[data-testid^="recent-news"],SECTION[data-testid^="module-news-stream"],SECTION[class^="footer"]
 finance.yahoo.com##DIV[id="mrt-node-Col1-2-QuoteVideo"]
 simplywall.st##IMG[src="https://simplywall.st/cdn-cgi/image/format=auto,fit=cover,w=1167,h=198,q=80/https://images.simplywall.st/asset/industry/8032000-choice2-main-header/1585186601535"]
 stockanalysis.com##DIV[class="fixed left-0 top-0 z-[99] flex h-screen w-screen items-center justify-center bg-gray-500/50"]
