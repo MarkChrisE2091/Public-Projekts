@@ -95,7 +95,7 @@ simplywall.st##IMG[src="https://simplywall.st/cdn-cgi/image/format=auto,fit=cove
 stockanalysis.com##DIV[class="fixed left-0 top-0 z-[99] flex h-screen w-screen items-center justify-center bg-gray-500/50"]
 sec.gov##IMG[class="align-center"][src="/files/inline-images/UsingSearch4.png"],IMG[src="/files/Bike_Family_Final-Hero_11-03-17.jpg"]
 sec.gov##DIV[class="views-element-container block region__inner homepage_featured_stories-sec_stories"],DIV[class="views-row row-1"],DIV[class="region region-page-title-region"]
-bea.gov##A[href="/system/files/pce-price-index_0.jpg"]
+bea.gov##A[href="/system/files/pce-price-index_0.jpg"],A[href="/system/files/pce-price-index-excluding-food-energy_0.jpg"]
 cmegroup.com##SECTION[class="popup bottom-left slide-top"]
 gurufocus.com##DIV[class="v-modal"],DIV[class="el-dialog__body"],DIV[class="el-dialog__wrapper gf"]
 rockymountainpower.net##IMG[class="cmp-image__image image image--auto"],DIV[class="hero hero--default"]
