@@ -184,8 +184,17 @@ lazycatkitchen.com##DIV[id="comments"],DIV[class="comments-list"],DIV[class="mai
 zardyplants.com##DIV[id="comments"],DIV[id="respond"]
 ambitiouskitchen.com##DIV[id="comments"]
 veggieanh.com##DIV[id="comments"]
+veganhuggs.com##DIV[id="comments"]
 woonheng.com##DIV[id="comments"],DIV[id="respond"],ASIDE[id="genesis-sidebar-primary"]
 thechutneylife.com##DIV[class="footer-gallery"],DIV[class="single-sidebar aos-init aos-animate"],SECTION[class="comments-container"]
+okonomikitchen.com##DIV[id="comments"]
+heartfultable.com##DIV[id="comments"]
+nikkivegan.com##DIV[id="comments"]
+kirbiecravings.com##DIV[id="comments"],DIV[id="custom_html-7"],DIV[class="topsidebar"],
+itdoesnttastelikechicken.com##DIV[id="comments"],DIV[id="respond"]
+! shortgirltallorder.com##DIV[id="comments"]
+shortgirltallorder.com##DIV[id="respond"],DIV[id="wprm-popup-modal-user-rating"],DIV[id="wprm-popup-modal-2"]
+
 ! ----------Unwanted URL requests----------!
 ||www.google.com/logos/doodles/*
 
