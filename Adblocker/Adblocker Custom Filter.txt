@@ -46,9 +46,6 @@ ratemyprofessors.com##DIV[class="TeacherRatingsPage__StyledJWVideoPlayerContaine
 utah.instructure.com##DIV[id="dvOuter"]
 coursera.org##DIV[class="css-644eap"],DIV[class="cds-9 css-0 cds-10 cds-11 cds-grid-item"],DIV[class="cds-9 css-1i551o5 cds-11 cds-grid-item cds-56 cds-76"]
 coursera.org##H2[class="cds-119 cds-Typography-base css-bbd009 cds-121"],DIV[class="cds-1 css-vi6zym cds-3 cds-grid-item"]
-cjeatsrecipes.com##DIV[class^="block-about cwp-large"],DIV[class="post-header__info"],DIV[class^="wpforms-container"],DIV[id="comments"]
-thewoksoflife.com##DIV[class="image"],DIV[class="articles-container flexbox"],DIV[id="wpdcom"],SECTION[class="author-box"]
-zardyplants.com##DIV[id="comments"],DIV[id="respond"]
 bestbuy.com##SPAN[class="blue-assist-minimized-beacon"]
 amazon.com##DIV[id="PrimeStripe"]
 amazon.com##DIV[id="prominentUpsellSlotCard"]
@@ -179,8 +176,15 @@ superuser.com##DIV[id="onetrust-consent-sdk"]
 askubuntu.com##DIV[id="onetrust-consent-sdk"]
 diffchecker.com##DIV[class^="ad-native-single"]
 
-minimalistbaker.com##DIV[id="comments"]
-
+minimalistbaker.com##DIV[id="comments"],DIV[id="respond"]
+cjeatsrecipes.com##DIV[class^="block-about cwp-large"],DIV[class="post-header__info"],DIV[class^="wpforms-container"],DIV[id="comments"]
+thefoodietakesflight.com##DIV[class="elementor-widget-container"],DIV[class="elementor-widget-wrap elementor-element-populated"]
+thewoksoflife.com##DIV[class="image"],DIV[class="articles-container flexbox"],DIV[id="wpdcom"],SECTION[class="author-box"]
+lazycatkitchen.com##DIV[id="comments"],DIV[class="comments-list"],DIV[class="mailing-list-normal"]
+zardyplants.com##DIV[id="comments"],DIV[id="respond"]
+ambitiouskitchen.com##DIV[id="comments"]
+veggieanh.com##DIV[id="comments"]
+woonheng.com##DIV[id="comments"],DIV[id="respond"]
 ! ----------Unwanted URL requests----------!
 ||www.google.com/logos/doodles/*
 
