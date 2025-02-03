@@ -48,6 +48,7 @@ coursera.org##DIV[class="css-644eap"],DIV[class="cds-9 css-0 cds-10 cds-11 cds-g
 coursera.org##H2[class="cds-119 cds-Typography-base css-bbd009 cds-121"],DIV[class="cds-1 css-vi6zym cds-3 cds-grid-item"]
 cjeatsrecipes.com##DIV[class^="block-about cwp-large"],DIV[class="post-header__info"],DIV[class^="wpforms-container"],DIV[id="comments"]
 thewoksoflife.com##DIV[class="image"],DIV[class="articles-container flexbox"],DIV[id="wpdcom"],SECTION[class="author-box"]
+zardyplants.com##DIV[id="comments"],DIV[id="respond"]
 bestbuy.com##SPAN[class="blue-assist-minimized-beacon"]
 amazon.com##DIV[id="PrimeStripe"]
 amazon.com##DIV[id="prominentUpsellSlotCard"]
