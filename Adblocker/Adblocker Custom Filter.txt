@@ -184,7 +184,8 @@ lazycatkitchen.com##DIV[id="comments"],DIV[class="comments-list"],DIV[class="mai
 zardyplants.com##DIV[id="comments"],DIV[id="respond"]
 ambitiouskitchen.com##DIV[id="comments"]
 veggieanh.com##DIV[id="comments"]
-woonheng.com##DIV[id="comments"],DIV[id="respond"]
+woonheng.com##DIV[id="comments"],DIV[id="respond"],ASIDE[id="genesis-sidebar-primary"]
+thechutneylife.com##DIV[class="footer-gallery"],DIV[class="single-sidebar aos-init aos-animate"],SECTION[class="comments-container"]
 ! ----------Unwanted URL requests----------!
 ||www.google.com/logos/doodles/*
 
