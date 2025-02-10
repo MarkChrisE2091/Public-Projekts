@@ -90,7 +90,7 @@ fidelity.com##DIV[class^="scl-hero--msg"],DIV[class^="scl-hero-container"],DIV[c
 fidelity.com##DIV[id="sblocheroDEFAULTNCL"][class="scl-flexible-images-with-column   scl-image-promo-panel scl-image-promo-panel--526-1419436  remove-bottom-border"]
 fidelity.com##ARTICLE[class="alternatingEven"]
 cnbc.com##DIV[class="SidebarArticle-sticky"]
-finance.yahoo.com##UL[class="My(0) P(0) Wow(bw) Ov(h)"]
+finance.yahoo.com##UL[class="My(0) P(0) Wow(bw) Ov(h)"] 
 finance.yahoo.com##DIV[id="defaultLDRB2-wrapper"],DIV[id="sda-E2E"]
 finance.yahoo.com##DIV[id="slingstoneStream-0-Stream"][class="tdv2-applet-stream Bdc(#e2e2e6) Pos(r) Z(1)"]
 finance.yahoo.com##DIV[class="W(100%) Maw(900px) Pos(r) Cf Wow(bw) article-cluster-boundary Mb(30px) Mb(20px)--md1100"]
