@@ -86,7 +86,7 @@ fidelity.com##IMG[src="https://www.fidelity.com/bin-public/060_www_fidelity_com/
 fidelity.com##IMG[src="https://www.fidelity.com/bin-public/600_Fidelity_Com_English/images/homepage/managed.jpg"]
 fidelity.com##IMG[src="https://www.fidelity.com/bin-public/600_Fidelity_Com_English/images/homepage/trading-invest-img.jpg"]
 fidelity.com##IMG[src="https://www.fidelity.com/bin-public/600_Fidelity_Com_English/images/homepage/hero-images/HeroGM1.png"]
-fidelity.com##DIV[class^="scl-hero--msg"],DIV[class^="scl-hero--container-wrapper at-element-marker at-element-click-tracking"]
+fidelity.com##DIV[class^="scl-hero"],DIV[class^="scl-hero--msg"],DIV[class^="scl-hero--container-wrapper at-element-marker at-element-click-tracking"]
 fidelity.com##DIV[id="sblocheroDEFAULTNCL"][class="scl-flexible-images-with-column   scl-image-promo-panel scl-image-promo-panel--526-1419436  remove-bottom-border"]
 fidelity.com##ARTICLE[class="alternatingEven"]
 cnbc.com##DIV[class="SidebarArticle-sticky"]
