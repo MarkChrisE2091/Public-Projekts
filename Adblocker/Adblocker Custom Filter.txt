@@ -191,6 +191,13 @@ k2s.cc##DIV[class="css-1s9udn6 e7y6g931"] !Sale Panels
 pornpics.com##DIV[id="main2"]
 pornpics.com##DIV[id="loader-css"]
 pornpics.com##DIV[class="gallery-info__item tags"]
+pornpics.hair##HTML
+camaraprivada.com##HTML
+pornpics.pictures##I[class="fas fa-download x8 x6 x5"]
+pornpics.beauty##DIV[class="cams"]
+pornpics.beauty##A[href="/premium/firstanalquest"]
+pornpics.beauty##DIV[class="t1"],DIV[class="t2"],DIV[class="t4"],DIV[class="t5"],DIV[class="t6"]
+
 eroboom.org,eroboom.net##DIV[class="links"],DIV[id="location"]
 erocurves.com##DIV[id="related_posts"],LI[id="menu-item-116"]
 eroticbeauties.net##DIV[class="slickGallery"]
@@ -213,6 +220,7 @@ sexvid.pro,sexvid.porn##UL[class="header-menu"]
 sexvid.pro,sexvid.porn##A[class="nav_link"]
 sexvid.pro,sexvid.porn##A[class="wrapper_site"]
 
+imgbox.com##DIV[class="_ln-floater"]
 turboimagehost.com##DIV[id="AB"]
 imx.to##DIV[id="wrap"],A[class="btnimxtoad"][href^="https://as.fontheader.com/"]
 
