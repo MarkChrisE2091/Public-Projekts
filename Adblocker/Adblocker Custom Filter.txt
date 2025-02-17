@@ -191,10 +191,8 @@ k2s.cc##DIV[class="css-1s9udn6 e7y6g931"] !Sale Panels
 pornpics.com##DIV[id="main2"]
 pornpics.com##DIV[id="loader-css"]
 pornpics.com##DIV[class="gallery-info__item tags"]
-eroboom.org##DIV[class="links"]
-eroboom.org##DIV[id="location"]
-erocurves.com##DIV[id="related_posts"]
-erocurves.com##LI[id="menu-item-116"]
+eroboom.org,eroboom.net##DIV[class="links"],DIV[id="location"]
+erocurves.com##DIV[id="related_posts"],LI[id="menu-item-116"]
 eroticbeauties.net##DIV[class="slickGallery"]
 eroticbeauties.net##DIV[class="row related clearfix"]
 eroticbeauties.net##LI[class="dropdown categories"]
@@ -216,8 +214,7 @@ sexvid.pro,sexvid.porn##A[class="nav_link"]
 sexvid.pro,sexvid.porn##A[class="wrapper_site"]
 
 turboimagehost.com##DIV[id="AB"]
-imx.to##DIV[id="wrap"]
-imx.to##A[class="btnimxtoad"][href^="https://as.fontheader.com/"]
+imx.to##DIV[id="wrap"],A[class="btnimxtoad"][href^="https://as.fontheader.com/"]
 
 
 
