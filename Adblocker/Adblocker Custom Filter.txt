@@ -174,6 +174,74 @@ auntmia.com##IFRAME,DIV[class="grid-item fr"]
 freepornee.com##DIV[class="bb"],DIV[class="cc"],DIV[class="hh"],DIV[class="masonry"],DIV[class="gg"],DIV[class="bt"]
 fuckjpg.com##A[target="_blank"]
 girlsreleased.com##DIV[id^="a-ads"]
+
+
+k2s.cc##DIV[class="list-deleted"]
+k2s.cc##DIV[class="account-menu"]
+k2s.cc##DIV[class="section-question"]
+k2s.cc##DIV[id="premium-banner"]
+k2s.cc##A[href="#premium-banner"]
+k2s.cc##DIV[class^="recommended-container-column"]
+k2s.cc##A[class="video-link"]
+k2s.cc##DIV[class^="css-9zpt7n"]
+k2s.cc##DIV[class^="css-8n6jzh"]
+k2s.cc##DIV[class="css-1s9udn6 e7y6g931"] !Sale Panels
+
+
+pornpics.com##DIV[id="main2"]
+pornpics.com##DIV[id="loader-css"]
+pornpics.com##DIV[class="gallery-info__item tags"]
+eroboom.org##DIV[class="links"]
+eroboom.org##DIV[id="location"]
+erocurves.com##DIV[id="related_posts"]
+erocurves.com##LI[id="menu-item-116"]
+eroticbeauties.net##DIV[class="slickGallery"]
+eroticbeauties.net##DIV[class="row related clearfix"]
+eroticbeauties.net##LI[class="dropdown categories"]
+eroticbeauties.net##DIV[class="headerlinks"]
+eroticbeauties.net##DIV[class="row submenu"]
+eroticbeauties.net##DIV[class="row footer-nav"]
+eroticbeauties.net##DIV[class="row top-referrers"]
+
+porngals4.com##DIV[class="gl3"]
+porngals4.com##DIV[class="spl1 mspl1 vc"]
+porngals4.com##A[href="/categories/"]
+sexvid.pro,sexvid.porn##DIV[class="block_main purple"]
+sexvid.pro,sexvid.porn##DIV[class="col_bar"]
+sexvid.pro,sexvid.porn##DIV[class="related-holder"]
+sexvid.pro,sexvid.porn##DIV[class="cs-block"]
+sexvid.pro,sexvid.porn##DIV[class="wrap-nav-holder"]
+sexvid.pro,sexvid.porn##UL[class="header-menu"]
+sexvid.pro,sexvid.porn##A[class="nav_link"]
+sexvid.pro,sexvid.porn##A[class="wrapper_site"]
+
+turboimagehost.com##DIV[id="AB"]
+imx.to##DIV[id="wrap"]
+imx.to##A[class="btnimxtoad"][href^="https://as.fontheader.com/"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 wallhere.com##DIV[style="margin: auto;width:300px;height:250px;"]
 
 moea.io##IMG[class="Slideshow__Image hide-no-js lazyautosizes Image--lazyLoaded"]
