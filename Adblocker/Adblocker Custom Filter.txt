@@ -35,6 +35,7 @@ youtube.com##ytmusic-carousel-shelf-renderer:has-text("Trending community playli
 youtube.com##ytmusic-carousel-shelf-renderer:has-text("Tailgate time")
 youtube.com##ytmusic-carousel-shelf-renderer:has-text("Game Over")
 
+
 duckduckgo.com##DIV[class="tileview-top-module js-tileview-top-module"]
 facebook.com##DIV[class="__fb-light-mode x1n2onr6 xzkaem6"]
 instagram.com##DIV[class="_acus"],DIV[class="x78zum5 xdt5ytf xg6iff7 x1n2onr6"],DIV[class="x1n2onr6 xzkaem6"]
@@ -68,6 +69,7 @@ ptable.com##SECTION[id="Notice"][class="Notice"]
 python.org##UL[class="footer-links navigation menu do-not-print"],A[href="/community/diversity/"]
 claude.ai##DIV[class="flex md:px-2 flex-col-reverse"]
 claude.ai##DIV[class="flex px-1 md:px-2 flex-col-reverse"]
+
 
 smithsfoodanddrug.com##DIV[class="with-auth"]
 targetoptical.com##PICTURE[class="d-flex background"]
@@ -145,22 +147,24 @@ sexy-models.net##DIV[class="top-text-header"],DIV[class="new-sidebar-wrap"],LI[i
 sexhd.pics##DIV[class="mc"],DIV[class="pag4"],DIV[class="pag2"],DIV[class="menu"],DIV[class="pag"],DIV[class="flex1"],DIV[class="flex2"]
 elitebabes.com##DIV[class="double text-center"],FIGURE[class="image-banner"]
 metarthunter.com##DIV[class="double text-center"]
-pornpics.hair##DIV[class="r6"],DIV[class="cm"],DIV[class="r5"],DIV[class="t2"],DIV[class="t4"]
-pornpics.pictures##DIV[class="pp"],DIV[class="cm"],DIV[class="m2"],DIV[class="t2"],DIV[class="t4"],DIV[class="t6"],DIV[class="t7"]
+pornpics.pictures##DIV[class="pp"],DIV[class="cm"],DIV[class="m2"],DIV[class="t2"],DIV[class="t4"],DIV[class="t6"],DIV[class="t7"],I[class="fas fa-download x8 x6 x5"]
+pornpics.beauty##DIV[class="t1"],DIV[class="t2"],DIV[class="t4"],DIV[class="t5"],DIV[class="t6"],DIV[class="cams"],A[href="/premium/firstanalquest"]
+pornpics.com##DIV[id="main2"],DIV[id="loader-css"],DIV[class="gallery-info__item tags"]
+pornpics.hair,camaraprivada.com##HTML
 girlstop.info##DIV[class="content-block no-border"]
 vipergirls.to,viperproxy.org,planetviper.club##DIV[align="center"],DIV[class="after_content"],BLOCKQUOTE[class="signature restore"],iframe[seamless="seamless"]
 porncoven.com,pornsavant.com,eroticity.net##DIV[id="ad_global_below_navbar"],iframe[seamless="seamless"]
 pornbb.org##A[class="postlink"][href="http://teenmushi.org"]
 porngals4.com##DIV[class="box1"],ASIDE[class="sb1"],ASIDE[class="sb2"]
-babepedia.com##DIV[class="sidebar_block"]
-outletpic.com##TD[align="left"],TD[align="right"]
 fapics.de##A[target="_self"],A[href="https://pichoz.dob.jp/"],A[href="https://gfiles.top"]
 fapcoholic.com##NAV[class="random"]
+outletpic.com##TD[align="left"],TD[align="right"]
 eropics.to##DIV[id="comments"][class="comments-area"]
 thegalery.com,nudefetish.com,sexgallery.co##UL[class="wp_rss_retriever_list"]
 image-heaven.nl##LI[id="forum49"]
 rossia.org##DIV[style="text-align: center"]
 x3vid.com##NAV[id="left-menu"]
+babepedia.com##DIV[class="sidebar_block"]
 thenude.com##DIV[class="cams-footer-container"],DIV[class="row my-1"],DIV[class="col-sm-2 right-sidebar"]
 eporner.com##DIV[id="gridholder"]
 mygirls.xyz##DIV[class="card-columns"],DIV[class="row"]
@@ -174,80 +178,17 @@ auntmia.com##IFRAME,DIV[class="grid-item fr"]
 freepornee.com##DIV[class="bb"],DIV[class="cc"],DIV[class="hh"],DIV[class="masonry"],DIV[class="gg"],DIV[class="bt"]
 fuckjpg.com##A[target="_blank"]
 girlsreleased.com##DIV[id^="a-ads"]
-
-
-k2s.cc##DIV[class="list-deleted"]
-k2s.cc##DIV[class="account-menu"]
-k2s.cc##DIV[class="section-question"]
-k2s.cc##DIV[id="premium-banner"]
-k2s.cc##A[href="#premium-banner"]
-k2s.cc##DIV[class^="recommended-container-column"]
-k2s.cc##A[class="video-link"]
-k2s.cc##DIV[class^="css-9zpt7n"]
-k2s.cc##DIV[class^="css-8n6jzh"]
-k2s.cc##DIV[class="css-1s9udn6 e7y6g931"] !Sale Panels
-
-
-pornpics.com##DIV[id="main2"]
-pornpics.com##DIV[id="loader-css"]
-pornpics.com##DIV[class="gallery-info__item tags"]
-pornpics.hair##HTML
-camaraprivada.com##HTML
-pornpics.pictures##I[class="fas fa-download x8 x6 x5"]
-pornpics.beauty##DIV[class="cams"]
-pornpics.beauty##A[href="/premium/firstanalquest"]
-pornpics.beauty##DIV[class="t1"],DIV[class="t2"],DIV[class="t4"],DIV[class="t5"],DIV[class="t6"]
-
+k2s.cc##DIV[class="list-deleted"],DIV[class="account-menu"],DIV[class="section-question"],DIV[id="premium-banner"],A[href="#premium-banner"],DIV[class^="recommended-container-column"],A[class="video-link"],DIV[class^="css-9zpt7n"],DIV[class^="css-8n6jzh"],DIV[class="css-1s9udn6 e7y6g931"]
 eroboom.org,eroboom.net##DIV[class="links"],DIV[id="location"]
 erocurves.com##DIV[id="related_posts"],LI[id="menu-item-116"]
-eroticbeauties.net##DIV[class="slickGallery"]
-eroticbeauties.net##DIV[class="row related clearfix"]
-eroticbeauties.net##LI[class="dropdown categories"]
-eroticbeauties.net##DIV[class="headerlinks"]
-eroticbeauties.net##DIV[class="row submenu"]
-eroticbeauties.net##DIV[class="row footer-nav"]
-eroticbeauties.net##DIV[class="row top-referrers"]
-
-porngals4.com##DIV[class="gl3"]
-porngals4.com##DIV[class="spl1 mspl1 vc"]
-porngals4.com##A[href="/categories/"]
-sexvid.pro,sexvid.porn##DIV[class="block_main purple"]
-sexvid.pro,sexvid.porn##DIV[class="col_bar"]
-sexvid.pro,sexvid.porn##DIV[class="related-holder"]
-sexvid.pro,sexvid.porn##DIV[class="cs-block"]
-sexvid.pro,sexvid.porn##DIV[class="wrap-nav-holder"]
-sexvid.pro,sexvid.porn##UL[class="header-menu"]
-sexvid.pro,sexvid.porn##A[class="nav_link"]
-sexvid.pro,sexvid.porn##A[class="wrapper_site"]
-
+eroticbeauties.net##DIV[class="slickGallery"],DIV[class="row related clearfix"],DIV[class="headerlinks"],DIV[class="row submenu"],DIV[class="row footer-nav"],DIV[class="row top-referrers"],LI[class="dropdown categories"]
+sexvid.pro,sexvid.porn##DIV[class="block_main purple"],DIV[class="col_bar"],DIV[class="related-holder"],DIV[class="cs-block"],DIV[class="wrap-nav-holder"],UL[class="header-menu"],A[class="nav_link"],A[class="wrapper_site"]
+porngals4.com##DIV[class="gl3"],DIV[class="spl1 mspl1 vc"],A[href="/categories/"]
 imgbox.com##DIV[class="_ln-floater"]
 turboimagehost.com##DIV[id="AB"]
 imx.to##DIV[id="wrap"],A[class="btnimxtoad"][href^="https://as.fontheader.com/"]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 wallhere.com##DIV[style="margin: auto;width:300px;height:250px;"]
+
 
 moea.io##IMG[class="Slideshow__Image hide-no-js lazyautosizes Image--lazyLoaded"]
 hm.com##DIV[class="MyRewardsList--container__3eeek"]
@@ -255,11 +196,13 @@ rivian.com##DIV[class^="rivian-css-1r7ul4t"]
 rivian.com##DIV[class^="rivian-css-1xzhg9w"]
 rivian.com##DIV[class^="rivian-css-199lmzf"]
 
+
 stackoverflow.com##DIV[id="onetrust-consent-sdk"]
 stackexchange.com##DIV[id="onetrust-consent-sdk"]
 superuser.com##DIV[id="onetrust-consent-sdk"]
 askubuntu.com##DIV[id="onetrust-consent-sdk"]
 diffchecker.com##DIV[class^="ad-native-single"]
+
 
 minimalistbaker.com##DIV[id="comments"],DIV[id="respond"]
 cjeatsrecipes.com##DIV[class^="block-about cwp-large"],DIV[class="post-header__info"],DIV[class^="wpforms-container"],DIV[id="comments"]
@@ -279,6 +222,7 @@ kirbiecravings.com##DIV[id="comments"],DIV[id="custom_html-7"],DIV[class="topsid
 itdoesnttastelikechicken.com##DIV[id="comments"],DIV[id="respond"]
 ! shortgirltallorder.com##DIV[id="comments"]
 shortgirltallorder.com##DIV[id="respond"],DIV[id="wprm-popup-modal-user-rating"],DIV[id="wprm-popup-modal-2"]
+
 
 ! ----------Unwanted URL requests----------!
 ||www.google.com/logos/doodles/*
