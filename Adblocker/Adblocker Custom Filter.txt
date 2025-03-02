@@ -229,6 +229,11 @@ itdoesnttastelikechicken.com##DIV[id="comments"],DIV[id="respond"]
 shortgirltallorder.com##DIV[id="respond"],DIV[id="wprm-popup-modal-user-rating"],DIV[id="wprm-popup-modal-2"]
 
 
+www.canada.ca##DIV[id="wb-auto-4"]
+www.canada.ca##IMG[class="img-responsive full-width"][src="/content/dam/ircc/images/campaigns/placeholder-banner.png"]
+www.canada.ca##A[class="btn btn-default btn-block well hght-inhrt"][href="https://www.youtube.com/watch?v=OTHVA189ntM&list=PLCA6jA0Tld_qN_acksp05SmrtPNZNAplr"]
+
+
 ! ----------Unwanted URL requests----------!
 ||www.google.com/logos/doodles/*
 
