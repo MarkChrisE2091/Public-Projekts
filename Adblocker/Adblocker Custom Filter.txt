@@ -79,10 +79,6 @@ claude.ai##DIV[class="flex md:px-2 flex-col-reverse"]
 claude.ai##DIV[class="flex px-1 md:px-2 flex-col-reverse"]
 
 
-
-
-
-
 smithsfoodanddrug.com##DIV[class="with-auth"]
 targetoptical.com##PICTURE[class="d-flex background"]
 targetoptical.com##IMG[src="https://media.targetoptical.com/2023/Q4/PLP-CL-espot-b-D.jpg"]
