@@ -48,6 +48,7 @@ instagram.com##DIV[class="x6s0dn4 x18dzpp5 xoqspk4 xfh8nwu x78zum5 xds687c xmlhl
 x.com##DIV[aria-label="Trending"]
 reddit.com##[id="modal-dialog"]
 reddit.com##DIV[style="position: fixed; inset: 0px; backdrop-filter: blur(4px);"]
+wikihow.com##DIV[class="sidebox sidebox-articles"]
 imdb.com##DIV[class="sc-417cfe9-3 cKgNlH"]
 outlook.live.com##DIV[class="GssDD"]
 bing.com##DIV[id="vs_cont"][class="vs_cont"]
