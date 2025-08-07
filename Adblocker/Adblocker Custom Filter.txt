@@ -125,7 +125,7 @@ bea.gov##A[href="/system/files/pce-price-index_0.jpg"],A[href="/system/files/pce
 cmegroup.com##SECTION[class="popup bottom-left slide-top"]
 gurufocus.com##DIV[class="v-modal"],DIV[class="el-dialog__body"],DIV[class="el-dialog__wrapper gf"]
 barchart.com##DIV[id="bc-cnx-player"],DIV[class="small-12 columns right-column"]
-seekingalpha.com##DIV[id="comments-card"],DIV[class="sticky bottom-0 z-sticky w-full"]
+seekingalpha.com##DIV[id="comments-card"],DIV[class^="sticky bottom-0 z-sticky"]
 benzinga.com##DIV[class^="floatingWidget"],DIV[class^="lazyload-wrapper"],DIV[class^="sc-dUjyAM"]
 rockymountainpower.net##IMG[class="cmp-image__image image image--auto"],DIV[class="hero hero--default"]
 speedtest.net##IMG[alt="GROUP BLACK logo"],P[class="u-smaller"]
