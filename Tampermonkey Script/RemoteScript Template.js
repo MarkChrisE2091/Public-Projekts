@@ -3,13 +3,9 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Description here
-// @author       You
+// @require      https://raw.githubusercontent.com/MarkChrisE2091/Public-Projekts/refs/heads/main/Tampermonkey%20Script/TestScript.js
 // @match        https://*.example.com/*
 // @grant        none
 // ==/UserScript==
 
-(function() {
-    'use strict';
-
-    // Your code here...
-})();
+// The required script will run automatically
