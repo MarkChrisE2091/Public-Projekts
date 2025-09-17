@@ -90,6 +90,7 @@ perplexity.ai##DIV[class^="flex h-full w-screen grow"]
 perplexity.ai##DIV[class^="shadow-md"]
 perplexity.ai##DIV[class^="fixed inset-0 overflow-y-auto"]
 perplexity.ai##DIV[class^="items-stretch md:items-center"]
+perplexity.ai##IFRAME[name^="__privateStripeMetrics"]
 
 
 smithsfoodanddrug.com##DIV[class="with-auth"]

@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         ChatGPT Usage
+// @name         Perplexity Usage
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  ChatGPT Usage
+// @description  Perplexity Usage
 // @author       You
-// @match        https://chatgpt.com/*
-// @match        https://*.chatgpt.com/*
+// @match        https://perplexity.ai/*
+// @match        https://*.perplexity.ai/*
 // @grant        none
 // ==/UserScript==
 
@@ -13,7 +13,7 @@
     "use strict";
 
     function Chat(message){
-        let chatBox = document.getElementById("prompt-textarea");
+        let chatBox = document.getElementById("ask-input");
         chatBox.textContent = message;
         chatBox.dispatchEvent(new KeyboardEvent('keydown', {key: 'Enter'}));
     }
