@@ -13,7 +13,15 @@
     "use strict";
 
     function Chat(message){
-        let chatBox = document.getElementById("ask-input");
+        let chatBox = document.getElementById("ask-input").getElementsByTagName("p")[0];
+        // let newSpan = document.createElement("span");
+        // newSpan.textContent = "Hello World!";
+        // chatBox.appendChild(newSpan);
+
+        chatBox.getElementsByTagName("span")[0].textContent = "Hello World!";
+        console.log(chatBox.getElementsByTagName("span")[0].textContent);
+
+
         chatBox.textContent = message;
         chatBox.dispatchEvent(new KeyboardEvent('keydown', {key: 'Enter'}));
     }

@@ -2,7 +2,7 @@
 // @name         ChatGPT Annoyance Removel
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  chatgpt.com Remove Modal and Re-enable Scrolling
+// @description  ChatGPT Remove Modal and Re-enable Scrolling
 // @author       You
 // @match        https://chatgpt.com/*
 // @match        https://*.chatgpt.com/*
@@ -24,7 +24,7 @@
         e.stopImmediatePropagation();
     }, true);
 
-    // Prevent it from reappearing
+    // Prevent modal from reappearing
     const style = document.createElement('style');
     style.textContent = `
         [data-testid="modal-no-auth-rate-limit"], [data-testid="modal-no-auth-gpt5-upsell"] { display: none !important; }
