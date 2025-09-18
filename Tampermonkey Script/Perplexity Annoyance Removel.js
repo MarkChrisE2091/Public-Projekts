@@ -19,16 +19,4 @@
         e.stopImmediatePropagation();
     }, true);
 
-    let newMeta = document.createElement('meta');
-    newMeta.httpEquiv = "Content-Security-Policy";
-    newMeta.content = "script-src 'none';";
-    document.head.appendChild(newMeta);
-
-    const inputDiv = document.getElementById('ask-input');
-
-
-    
-
-
-
 })();

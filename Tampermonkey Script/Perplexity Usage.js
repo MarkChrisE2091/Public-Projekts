@@ -13,22 +13,24 @@
     "use strict";
 
     function Chat(message){
-        let chatBox = document.getElementById("ask-input").getElementsByTagName("p")[0];
-        // let newSpan = document.createElement("span");
-        // newSpan.textContent = "Hello World!";
-        // chatBox.appendChild(newSpan);
-
-        chatBox.getElementsByTagName("span")[0].textContent = "Hello World!";
-        console.log(chatBox.getElementsByTagName("span")[0].textContent);
-
-
-        chatBox.textContent = message;
-        chatBox.dispatchEvent(new KeyboardEvent('keydown', {key: 'Enter'}));
+        // Get the Lexical editor element
+        let chatBox = document.getElementById("ask-input");
+        
+        chatBox.focus();    // Focus the editor first
+        
+        // Lexical editor prevents direct text modification
+        // Working with Lexical (bypasses Lexical protection)
+        document.execCommand('selectAll');  // Select all text
+        document.execCommand('delete');     // Delete text
+        document.execCommand('insertText', false, message);  // Insert text
+        
+        // Click the submit button
+        document.querySelector('[data-testid="submit-button"]')?.click();
     }
 
     function Start(){
         let count = 0;
-        setInterval(() => {
+        let intervalId = setInterval(() => {
             if (count >= 5) {
                 clearInterval(intervalId);
                 console.log("Start loop completed after 5 executions");

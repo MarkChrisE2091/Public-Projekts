@@ -20,7 +20,7 @@
 
     function Start(){
         let count = 0;
-        setInterval(() => {
+        let intervalId = setInterval(() => {
             if (count >= 5) {
                 clearInterval(intervalId);
                 console.log("Start loop completed after 5 executions");
