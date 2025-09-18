@@ -268,7 +268,7 @@ www.canada.ca##A[class="btn btn-default btn-block well hght-inhrt"][href="https:
 ||www.google.com/logos/doodles/*
 ||googletagmanager.com^
 ||dubcdn.com^
-||ah-cdn.merge.dev^
+||ah-cdn.merge.dev^  ! Maybe Unblock this later 
 
 ! ----------Unblock Exceptions----------!
 @@||investopedia.com/*^$document
