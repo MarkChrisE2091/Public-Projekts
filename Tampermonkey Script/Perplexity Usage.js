@@ -25,7 +25,12 @@
         document.execCommand('insertText', false, message);  // Insert text
         
         // Click the submit button
-        document.querySelector('[data-testid="submit-button"]')?.click();
+        let submitButton = document.querySelector('[data-testid="submit-button"]');
+        if (submitButton) {
+            setTimeout(() => { submitButton.click(); }, 500);
+        } else {
+            console.log("Submit button not found");
+        }
     }
 
     function Start(){

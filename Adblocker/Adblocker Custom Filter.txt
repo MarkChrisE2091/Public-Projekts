@@ -266,7 +266,9 @@ www.canada.ca##A[class="btn btn-default btn-block well hght-inhrt"][href="https:
 
 ! ----------Unwanted URL requests----------!
 ||www.google.com/logos/doodles/*
-
+||googletagmanager.com^
+||dubcdn.com^
+||ah-cdn.merge.dev^
 
 ! ----------Unblock Exceptions----------!
 @@||investopedia.com/*^$document
