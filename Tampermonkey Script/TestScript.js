@@ -11,6 +11,6 @@
 (function() {
     'use strict';
 
-    // console.log("Hello World! I am from GitHub!");
-    console.log("Testing2!");
+    console.log("Hello World! I am from GitHub!");
+    // console.log("Testing2!");
 })();
