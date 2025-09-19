@@ -21,7 +21,7 @@
     function AutoReload() {
         setInterval(() => {
             console.log("10 minutes elapsed - reloading page...");
-            location.reload();
+            window.location.reload();
         }, 600000); // 10 minutes
     }
     
