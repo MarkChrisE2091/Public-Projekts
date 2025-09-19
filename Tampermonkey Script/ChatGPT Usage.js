@@ -19,12 +19,12 @@
     }
 
     function AutoReload() {
-        setTimeout(() => {
+        setInterval(() => {
             console.log("10 minutes elapsed - reloading page...");
             location.reload();
         }, 600000); // 10 minutes
     }
-
+    
     function Start(){
         let count = 0;
         let intervalId = setInterval(() => {
