@@ -21,7 +21,7 @@
     function AutoReload() {
         setInterval(() => {
             console.log("10 minutes elapsed - reloading page...");
-            window.location.reload();
+            window.location.href = "https://chatgpt.com";
         }, 600000); // 10 minutes
     }
     
