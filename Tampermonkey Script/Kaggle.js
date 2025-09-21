@@ -4,6 +4,7 @@
 // @version      1.0
 // @description  List of actions for Kaggle
 // @author       You
+// @match        https://kaggle.com/*
 // @match        https://*.kaggle.com/*
 // @grant        none
 // ==/UserScript==
