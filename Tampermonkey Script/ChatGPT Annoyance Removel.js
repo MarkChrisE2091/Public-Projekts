@@ -4,7 +4,6 @@
 // @version      1.0
 // @description  ChatGPT Remove Modal and Re-enable Scrolling
 // @author       You
-// @match        https://chatgpt.com/*
 // @match        https://*.chatgpt.com/*
 // @grant        none
 // ==/UserScript==

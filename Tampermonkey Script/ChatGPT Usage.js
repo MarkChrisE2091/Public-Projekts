@@ -4,7 +4,6 @@
 // @version      1.0
 // @description  ChatGPT Usage
 // @author       You
-// @match        https://chatgpt.com/*
 // @match        https://*.chatgpt.com/*
 // @grant        none
 // ==/UserScript==

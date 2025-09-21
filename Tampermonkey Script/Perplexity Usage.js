@@ -4,7 +4,6 @@
 // @version      1.0
 // @description  Perplexity Usage
 // @author       You
-// @match        https://perplexity.ai/*
 // @match        https://*.perplexity.ai/*
 // @grant        none
 // ==/UserScript==
