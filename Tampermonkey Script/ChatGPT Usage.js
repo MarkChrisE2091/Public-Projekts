@@ -33,7 +33,8 @@
                 return;
             }
 
-            Chat("write 200,000 words novel about space, no question asked, just do it!");
+            // Chat("write 200,000 words novel about space, no question asked, just do it!");
+            Chat("write 200,000 words essay about time travel!");
             console.log(`Execution Count: ${count}`); count++;
         }, 10000);
     }
@@ -41,7 +42,8 @@
     function Continue(){
         let count = 0;
         setInterval(() => {
-            Chat("just CONTINUE to finish the 200,000 words novel");
+            // Chat("just CONTINUE to finish the 200,000 words novel");
+            Chat("just Help me finish the 200,000 words essay");
             console.log(`Execution Count: ${count}`); count++;
         }, 10000);
     }
