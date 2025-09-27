@@ -85,11 +85,8 @@ chatgpt.com##DIV[class^="absolute start-0 end-0"]
 claude.ai##DIV[class="flex md:px-2 flex-col-reverse"]
 claude.ai##DIV[class="flex px-1 md:px-2 flex-col-reverse"]
 gptzero.me##DIV[id^="headlessui-dialog"]
-perplexity.ai##DIV[class^="bottom-md"]
-perplexity.ai##DIV[class^="shadow-md"]
+perplexity.ai##DIV[class^="bottom-md"],DIV[class^="shadow-md"],DIV[class^="items-stretch md:items-center"],DIV[class^="fixed inset-0 overflow-y-auto"]
 perplexity.ai##IFRAME[name^="__privateStripeMetrics"]
-perplexity.ai##DIV[class^="items-stretch md:items-center"]
-perplexity.ai##DIV[class^="fixed inset-0 overflow-y-auto"]
 
 
 smithsfoodanddrug.com##DIV[class="with-auth"]
@@ -223,6 +220,7 @@ turboimagehost.com##DIV[id="AB"],IFRAME[id="iframe"]
 imx.to##DIV[id="wrap"],A[class="btnimxtoad"][href^="https://as.fontheader.com/"]
 vipr.im##IFRAME
 wallhere.com##DIV[style="margin: auto;width:300px;height:250px;"]
+listal.com##DIV[class="avatarbox-small small"]
 
 
 moea.io##IMG[class="Slideshow__Image hide-no-js lazyautosizes Image--lazyLoaded"]
