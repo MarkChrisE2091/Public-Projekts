@@ -36,7 +36,7 @@
         setInterval(() => {
             console.log("10 minutes elapsed - reloading page...");
             window.location.href = "https://perplexity.ai";
-        }, 600000); // 10 minutes
+        }, 300000); // 5 minutes
     }
 
     function Start(){
