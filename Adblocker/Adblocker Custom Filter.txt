@@ -14,6 +14,7 @@ google.com##DIV[class="szppmdbYutt__middle-slot-promo"]
 google.com##DIV[id="doodle"],DIV[id="imageDoodle"],DIV[id="hplogo"]
 google.com##DIV[id="_jRVlZ9_PHP6o5NoP4bzZqAI_8"],DIV[jsname="FAeNCb"]
 google.com##DIV[class="JwzvB"]
+google.com##DIV[class="oSMTPc"]
 !! Block specific Google Search results
 ! Adblock Plus-specific Extended CSS selectors
 google.com#?#DIV[class="MjjYud"]:-abp-has(a[href*="surnam.es"])
