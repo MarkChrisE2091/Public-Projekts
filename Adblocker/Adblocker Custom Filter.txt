@@ -41,6 +41,8 @@ youtube.com#?#ytmusic-carousel-shelf-renderer:-abp-has(yt-formatted-string.title
 youtube.com##ytmusic-carousel-shelf-renderer:has-text("Trending community playlists")
 youtube.com##ytmusic-carousel-shelf-renderer:has-text("Tailgate time")
 youtube.com##ytmusic-carousel-shelf-renderer:has-text("Game Over")
+microsoft.com##DIV[id="home.cards.card.family.cold"]
+microsoft.com##DIV[id="home.cards.card.discover.cold"]
 
 archive.org##DIV[id="donate_banner"]
 duckduckgo.com##DIV[class="tileview-top-module js-tileview-top-module"]
