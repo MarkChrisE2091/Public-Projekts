@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Perplexity Usage
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      1.3
 // @description  Perplexity Usage
 // @author       You
 // @match        https://*.perplexity.ai/*
