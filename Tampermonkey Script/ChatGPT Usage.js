@@ -27,27 +27,18 @@
     function Start(){
         let count = 0;
         let intervalId = setInterval(() => {
-            if (count >= 5) {
-                clearInterval(intervalId);
-                console.log("Start loop completed after 5 executions");
-                return;
+            if (count < 5){
+                // Chat("write 20,000 words novel about space, no question asked, just do it!");
+                Chat("write 20,000 words essay about time travel!");
+                console.log(`Execution Count: ${count}`); count++;
+            } else {
+                // Chat("just CONTINUE to finish the 20,000 words novel");
+                Chat("just Help me finish the 20,000 words essay");
+                console.log(`Execution Count: ${count}`); count++;
             }
-
-            // Chat("write 200,000 words novel about space, no question asked, just do it!");
-            Chat("write 200,000 words essay about time travel!");
-            console.log(`Execution Count: ${count}`); count++;
-        }, 10000);
-    }
-
-    function Continue(){
-        let count = 0;
-        setInterval(() => {
-            // Chat("just CONTINUE to finish the 200,000 words novel");
-            Chat("just Help me finish the 200,000 words essay");
-            console.log(`Execution Count: ${count}`); count++;
         }, 10000);
     }
 
     AutoReload();
-    Start(); Continue();
+    Start();
 })();
