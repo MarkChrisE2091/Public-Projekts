@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name         ChatGPT Usage
+// @name         ChatGPT Annoyance Removal + Auto Usage
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  ChatGPT Usage
+// @description  Remove modals, re-enable scrolling, and automate ChatGPT usage
 // @author       You
 // @match        https://*.chatgpt.com/*
-// @require      https://raw.githubusercontent.com/MarkChrisE2091/Public-Projekts/refs/heads/main/Tampermonkey%20Script/ChatGPT%20Usage.js
-// @updateURL    https://raw.githubusercontent.com/MarkChrisE2091/Public-Projekts/refs/heads/main/Tampermonkey%20Script/ChatGPT%20Usage.js
-// @downloadURL  https://raw.githubusercontent.com/MarkChrisE2091/Public-Projekts/refs/heads/main/Tampermonkey%20Script/ChatGPT%20Usage.js
+// @require      https://raw.githubusercontent.com/MarkChrisE2091/Public-Projekts/refs/heads/main/Tampermonkey%20Script/ChatGPT.js
+// @updateURL    https://raw.githubusercontent.com/MarkChrisE2091/Public-Projekts/refs/heads/main/Tampermonkey%20Script/ChatGPT.js
+// @downloadURL  https://raw.githubusercontent.com/MarkChrisE2091/Public-Projekts/refs/heads/main/Tampermonkey%20Script/ChatGPT.js
 // @grant        none
 // ==/UserScript==
 
