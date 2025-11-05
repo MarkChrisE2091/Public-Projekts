@@ -2,17 +2,17 @@
 
 ## Complete Taxonomy of Derivatives (9 possibilities)
 
-| Numerator | Denominator | Dimensions | Result Shape | Name | Notation |
-|-----------|-------------|------------|--------------|------|----------|
-| Scalar $y$ | Scalar $x$ | $\mathbb{R} \to \mathbb{R}$ | Scalar | Ordinary derivative | $\frac{dy}{dx}$ |
-| Scalar $y$ | Vector $\mathbf{x}$ (n×1) | $\mathbb{R}^n \to \mathbb{R}$ | Vector (n×1) | Gradient | $\frac{\partial y}{\partial \mathbf{x}}$ or $\nabla_{\mathbf{x}} y$ |
-| Scalar $y$ | Matrix $\mathbf{X}$ (m×n) | $\mathbb{R}^{m \times n} \to \mathbb{R}$ | Matrix (m×n) | Gradient w.r.t. matrix | $\frac{\partial y}{\partial \mathbf{X}}$ |
-| Vector $\mathbf{y}$ (m×1) | Scalar $x$ | $\mathbb{R} \to \mathbb{R}^m$ | Vector (m×1) | Tangent vector | $\frac{d\mathbf{y}}{dx}$ |
-| Vector $\mathbf{y}$ (m×1) | Vector $\mathbf{x}$ (n×1) | $\mathbb{R}^n \to \mathbb{R}^m$ | Matrix (m×n) | Jacobian | $\frac{\partial \mathbf{y}}{\partial \mathbf{x}}$ or $\mathbf{J}$ |
-| Vector $\mathbf{y}$ (m×1) | Matrix $\mathbf{X}$ (p×q) | $\mathbb{R}^{p \times q} \to \mathbb{R}^m$ | 3D Tensor (m×p×q) | Tensor derivative | $\frac{\partial \mathbf{y}}{\partial \mathbf{X}}$ |
-| Matrix $\mathbf{Y}$ (m×n) | Scalar $x$ | $\mathbb{R} \to \mathbb{R}^{m \times n}$ | Matrix (m×n) | Matrix tangent | $\frac{d\mathbf{Y}}{dx}$ |
-| Matrix $\mathbf{Y}$ (m×n) | Vector $\mathbf{x}$ (p×1) | $\mathbb{R}^p \to \mathbb{R}^{m \times n}$ | 3D Tensor (m×n×p) | Tensor derivative | $\frac{\partial \mathbf{Y}}{\partial \mathbf{x}}$ |
-| Matrix $\mathbf{Y}$ (m×n) | Matrix $\mathbf{X}$ (p×q) | $\mathbb{R}^{p \times q} \to \mathbb{R}^{m \times n}$ | 4D Tensor (m×n×p×q) | 4th-order tensor | $\frac{\partial \mathbf{Y}}{\partial \mathbf{X}}$ |
+| # | Numerator | Denominator | Dimensions | Result Shape | Name | Notation |
+|---|-----------|-------------|------------|--------------|------|----------|
+| 1 | Scalar $y$ | Scalar $x$ | $\mathbb{R} \to \mathbb{R}$ | Scalar | Ordinary derivative | $\frac{dy}{dx}$ |
+| 2 | Scalar $y$ | Vector $\mathbf{x}$ (n×1) | $\mathbb{R}^n \to \mathbb{R}$ | Vector (n×1) | Gradient | $\frac{\partial y}{\partial \mathbf{x}}$ or $\nabla_{\mathbf{x}} y$ |
+| 3 | Scalar $y$ | Matrix $\mathbf{X}$ (m×n) | $\mathbb{R}^{m \times n} \to \mathbb{R}$ | Matrix (m×n) | Gradient w.r.t. matrix | $\frac{\partial y}{\partial \mathbf{X}}$ |
+| 4 | Vector $\mathbf{y}$ (m×1) | Scalar $x$ | $\mathbb{R} \to \mathbb{R}^m$ | Vector (m×1) | Tangent vector | $\frac{d\mathbf{y}}{dx}$ |
+| 5 | Vector $\mathbf{y}$ (m×1) | Vector $\mathbf{x}$ (n×1) | $\mathbb{R}^n \to \mathbb{R}^m$ | Matrix (m×n) | Jacobian | $\frac{\partial \mathbf{y}}{\partial \mathbf{x}}$ or $\mathbf{J}$ |
+| 6 | Vector $\mathbf{y}$ (m×1) | Matrix $\mathbf{X}$ (p×q) | $\mathbb{R}^{p \times q} \to \mathbb{R}^m$ | 3D Tensor (m×p×q) | Tensor derivative | $\frac{\partial \mathbf{y}}{\partial \mathbf{X}}$ |
+| 7 | Matrix $\mathbf{Y}$ (m×n) | Scalar $x$ | $\mathbb{R} \to \mathbb{R}^{m \times n}$ | Matrix (m×n) | Matrix tangent | $\frac{d\mathbf{Y}}{dx}$ |
+| 8 | Matrix $\mathbf{Y}$ (m×n) | Vector $\mathbf{x}$ (p×1) | $\mathbb{R}^p \to \mathbb{R}^{m \times n}$ | 3D Tensor (m×n×p) | Tensor derivative | $\frac{\partial \mathbf{Y}}{\partial \mathbf{x}}$ |
+| 9 | Matrix $\mathbf{Y}$ (m×n) | Matrix $\mathbf{X}$ (p×q) | $\mathbb{R}^{p \times q} \to \mathbb{R}^{m \times n}$ | 4D Tensor (m×n×p×q) | 4th-order tensor | $\frac{\partial \mathbf{Y}}{\partial \mathbf{X}}$ |
 
 ---
 ## Usage Note: Most Commonly Used Matrix Calculus Operations
