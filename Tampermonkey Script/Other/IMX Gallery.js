@@ -15,7 +15,6 @@
         let button = document.querySelector('input[type="submit"]');
         if (button){
             button.click();         // Found it! Click and stop
-            console.log("Button Click!")
         }
         else{
             console.log("button doesn't exists. Retry again in a few second");
