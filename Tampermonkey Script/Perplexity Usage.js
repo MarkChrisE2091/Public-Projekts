@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Perplexity Usage
-// @namespace    http://tampermonkey.net/
+// @namespace    Browser Scripts
 // @version      1.0
 // @description  Perplexity Usage
 // @author       You

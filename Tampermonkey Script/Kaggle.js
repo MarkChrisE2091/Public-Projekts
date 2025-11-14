@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Kaggle
-// @namespace    http://tampermonkey.net/
+// @namespace    Browser Scripts
 // @version      1.0
 // @description  List of actions for Kaggle
 // @author       You

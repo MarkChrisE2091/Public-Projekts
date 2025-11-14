@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         ChatGPT Annoyance Removal + Auto Usage
-// @namespace    http://tampermonkey.net/
+// @namespace    Browser Scripts
 // @version      1.0
 // @description  Remove modals, re-enable scrolling, and automate ChatGPT usage
 // @author       You

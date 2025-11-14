@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         New Userscript
-// @namespace    http://tampermonkey.net/
+// @namespace    Browser Scripts
 // @version      1.0
 // @description  Description here
 // @author       You

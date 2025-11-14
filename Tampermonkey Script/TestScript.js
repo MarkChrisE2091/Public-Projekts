@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Test Script
-// @namespace    http://tampermonkey.net/
+// @name         TestScript
+// @namespace    Browser Scripts
 // @version      2025-09-17
-// @description  Testing Tempermonkey script from GitHub
+// @description  Say Hello to the world!
 // @author       You
 // @match        *://*/*
 // @grant        none
@@ -11,6 +11,5 @@
 (function() {
     'use strict';
 
-    console.log("Hello World! I am from GitHub!");
-    // console.log("Testing2!");
+    console.log("Hello world!")
 })();
