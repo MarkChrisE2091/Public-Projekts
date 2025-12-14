@@ -227,7 +227,7 @@ sexylady.top##DIV[id^="m"],DIV[style^="box-shadow: none;"]
 porngals4.com##DIV[class="gl3"],DIV[class="spl1 mspl1 vc"],A[href="/categories/"]
 imgbox.com##DIV[class="_ln-floater"]
 turboimagehost.com##DIV[id="AB"],IFRAME[id="iframe"]
-imx.to##DIV[id="wrap"],A[class="btnimxtoad"][href^="https://as.fontheader.com/"]
+imx.to##IFRAME,DIV[id="wrap"],A[class="btnimxtoad"][href^="https://as.fontheader.com/"]
 vipr.im##IFRAME
 wallhere.com##DIV[style="margin: auto;width:300px;height:250px;"]
 listal.com##DIV[class="avatarbox-small small"]
