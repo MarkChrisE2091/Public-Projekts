@@ -24,7 +24,7 @@
         document.execCommand('insertText', false, message);  // Insert text
         
         // Click the submit button
-        let submitButton = document.querySelector('[data-testid="submit-button"]');
+        let submitButton = document.querySelector('[aria-label="Submit"]');
         if (submitButton) {
             setTimeout(() => { submitButton.click(); }, 500);
         } else {
