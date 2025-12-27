@@ -7,7 +7,7 @@
 // @match        https://*.chatgpt.com/*
 // @grant        none
 // ==/UserScript==
- 
+
 (function () {
     "use strict";
 
