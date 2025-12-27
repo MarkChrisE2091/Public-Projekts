@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Perplexity Usage
 // @namespace    Browser Scripts
-// @version      1.3
+// @version      1.4
 // @description  Perplexity Usage
 // @author       You
 // @match        https://*.perplexity.ai/*
@@ -14,15 +14,12 @@
     function Chat(message) {
         // Get the Lexical editor element
         let chatBox = document.getElementById("ask-input");
-        
         chatBox.focus();    // Focus the editor first
-        
         // Lexical editor prevents direct text modification
         // Working with Lexical (bypasses Lexical protection)
         document.execCommand('selectAll');  // Select all text
         document.execCommand('delete');     // Delete text
         document.execCommand('insertText', false, message);  // Insert text
-        
         // Click the submit button
         let submitButton = document.querySelector('[aria-label="Submit"]');
         if (submitButton) {

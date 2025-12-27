@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gemini Usage
 // @namespace    Browser Scripts
-// @version      1.3
+// @version      1.4
 // @description  Gemini Usage
 // @author       You
 // @match        https://gemini.google.com/*
@@ -14,7 +14,13 @@
     function Chat(message) {
         let chatBox = document.querySelector('[class^="ql-editor"]');
         chatBox.textContent = message;
-        chatBox.dispatchEvent(new KeyboardEvent('keydown', {key: 'Enter', bubbles: true}));
+        // Click the submit button
+        let submitButton = document.querySelector('[aria-label="Send message"]');
+        if (submitButton) {
+            setTimeout(() => { submitButton.click(); }, 500);
+        } else {
+            console.log("Submit button not found");
+        }
     }
 
     function AutoReload() {
