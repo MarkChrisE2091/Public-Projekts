@@ -44,11 +44,11 @@
         let intervalId = setInterval(() => {
             if (count < 5){
                 // Chat("write 20,000 words novel about space, no question asked, just do it!");
-                Chat("write 20,000 words essay about time travel!");
+                Chat("write 100,000 words novel about time travel. you can build this iteratively");
                 console.log(`Execution Count: ${count}`); count++;
             } else {
-                // Chat("just CONTINUE to finish the 20,000 words novel");
-                Chat("just Help me finish the 20,000 words essay");
+                // Chat("just CONTINUE to finish the 100,000 words novel");
+                Chat("just Help me finish the 100,000 words novel");
                 console.log(`Execution Count: ${count}`); count++;
             }
         }, 10000);
