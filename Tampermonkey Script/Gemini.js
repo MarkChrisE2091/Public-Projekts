@@ -7,7 +7,7 @@
 // @match        https://gemini.google.com/*
 // @grant        none
 // ==/UserScript==
- 
+
 (function () {
     "use strict";
 
