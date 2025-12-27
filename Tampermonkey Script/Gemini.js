@@ -21,7 +21,7 @@
         setInterval(() => {
             console.log("5 minutes elapsed - reloading page...");
             window.location.href = "https://gemini.google.com";
-        }, 300000); // 5 minutes
+        }, 1200000); // 20 minutes
     }
 
     function Start(){
