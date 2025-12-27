@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ChatGPT Annoyance Removal + Auto Usage
 // @namespace    Browser Scripts
-// @version      1.1
+// @version      1.2
 // @description  Remove modals, re-enable scrolling, and automate ChatGPT usage
 // @author       You
 // @match        https://*.chatgpt.com/*
@@ -51,14 +51,14 @@
     function Chat(message) {
         let chatBox = document.getElementById("prompt-textarea");
         chatBox.textContent = message;
-        chatBox.dispatchEvent(new KeyboardEvent('keydown', {key: 'Enter'}));
+        chatBox.dispatchEvent(new KeyboardEvent('keydown', {key: 'Enter', bubbles: true}));
     }
 
     function AutoReload() {
         setInterval(() => {
-            console.log("10 minutes elapsed - reloading page...");
+            console.log("5 minutes elapsed - reloading page...");
             window.location.href = "https://chatgpt.com";
-        }, 600000); // 10 minutes
+        }, 300000); // 5 minutes
     }
     
     function Start() {

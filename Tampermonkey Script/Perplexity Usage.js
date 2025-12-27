@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Perplexity Usage
 // @namespace    Browser Scripts
-// @version      1.1
+// @version      1.2
 // @description  Perplexity Usage
 // @author       You
 // @match        https://*.perplexity.ai/*
@@ -11,7 +11,7 @@
 (function () {
     "use strict";
 
-    function Chat(message){
+    function Chat(message) {
         // Get the Lexical editor element
         let chatBox = document.getElementById("ask-input");
         
@@ -34,7 +34,7 @@
 
     function AutoReload() {
         setInterval(() => {
-            console.log("10 minutes elapsed - reloading page...");
+            console.log("5 minutes elapsed - reloading page...");
             window.location.href = "https://perplexity.ai";
         }, 300000); // 5 minutes
     }
