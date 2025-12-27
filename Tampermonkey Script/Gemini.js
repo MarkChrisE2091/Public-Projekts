@@ -21,20 +21,20 @@
         setInterval(() => {
             console.log("5 minutes elapsed - reloading page...");
             window.location.href = "https://gemini.google.com";
-        }, 1200000); // 20 minutes
+        }, 300000); // 5 minutes
     }
 
-    function Start(){
+    function Start() {
         let count = 0;
         let intervalId = setInterval(() => {
-            if (count < 5){
+            if (count < 5) {
                 Chat("write 100,000 words novel about time travel. you can build this iteratively");
                 console.log(`Execution Count: ${count}`); count++;
             } else {
                 Chat("just Help me finish the 100,000 words novel");
                 console.log(`Execution Count: ${count}`); count++;
             }
-        }, 10000);
+        }, 10000); // 10 seconds between messages
     }
 
     AutoReload();

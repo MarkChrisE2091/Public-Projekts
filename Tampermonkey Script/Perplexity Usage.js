@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Perplexity Usage
 // @namespace    Browser Scripts
-// @version      1.2
+// @version      1.3
 // @description  Perplexity Usage
 // @author       You
 // @match        https://*.perplexity.ai/*
@@ -51,7 +51,7 @@
                 Chat("just Help me finish the 100,000 words novel");
                 console.log(`Execution Count: ${count}`); count++;
             }
-        }, 10000);
+        }, 10000); // 10 seconds between messages
     }
 
     AutoReload();

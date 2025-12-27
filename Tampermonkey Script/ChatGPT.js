@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ChatGPT Annoyance Removal + Auto Usage
 // @namespace    Browser Scripts
-// @version      1.2
+// @version      1.3
 // @description  Remove modals, re-enable scrolling, and automate ChatGPT usage
 // @author       You
 // @match        https://*.chatgpt.com/*
@@ -66,14 +66,12 @@
         let intervalId = setInterval(() => {
             if (count < 5) {
                 Chat("write 100,000 words novel about time travel. you can build this iteratively");
-                console.log(`Execution Count: ${count}`); 
-                count++;
+                console.log(`Execution Count: ${count}`); count++;
             } else {
                 Chat("just Help me finish the 100,000 words novel");
-                console.log(`Execution Count: ${count}`); 
-                count++;
+                console.log(`Execution Count: ${count}`); count++;
             }
-        }, 10000);
+        }, 10000); // 10 seconds between messages
     }
 
     AutoReload();
