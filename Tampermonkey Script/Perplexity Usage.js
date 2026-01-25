@@ -32,7 +32,8 @@
     function AutoReload() {
         setInterval(() => {
             console.log("5 minutes elapsed - reloading page...");
-            window.location.href = "https://perplexity.ai";
+            window.open('https://perplexity.ai', '_blank');
+            window.close();
         }, 300000); // 5 minutes
     }
 

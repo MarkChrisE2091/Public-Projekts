@@ -26,7 +26,8 @@
     function AutoReload() {
         setInterval(() => {
             console.log("5 minutes elapsed - reloading page...");
-            window.location.href = "https://gemini.google.com/app";
+            window.open('https://gemini.google.com/app', '_blank');
+            window.close();
         }, 300000); // 5 minutes
     }
 
