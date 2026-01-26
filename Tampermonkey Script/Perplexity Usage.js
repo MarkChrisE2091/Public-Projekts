@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         Perplexity Usage
 // @namespace    Browser Scripts
-// @version      1.5
+// @version      1.6
 // @description  Perplexity Usage
 // @author       You
 // @match        https://*.perplexity.ai/*
-// @grant        none
+// @grant        GM_openInTab
 // ==/UserScript==
 
 (function () {
@@ -32,8 +32,8 @@
     function AutoReload() {
         setInterval(() => {
             console.log("5 minutes elapsed - reloading page...");
-            window.open('https://perplexity.ai', '_blank');
-            window.close();
+            GM_openInTab('https://perplexity.ai', { active: true });
+            setTimeout(() => { window.close(); }, 500);
         }, 300000); // 5 minutes
     }
 

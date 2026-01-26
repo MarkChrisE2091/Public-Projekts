@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         ChatGPT Annoyance Removal + Auto Usage
 // @namespace    Browser Scripts
-// @version      1.5
+// @version      1.6
 // @description  Remove modals, re-enable scrolling, and automate ChatGPT usage
 // @author       You
 // @match        https://*.chatgpt.com/*
-// @grant        none
+// @grant        GM_openInTab
 // ==/UserScript==
 
 (function () {
@@ -57,8 +57,8 @@
     function AutoReload() {
         setInterval(() => {
             console.log("5 minutes elapsed - reloading page...");
-            window.open('https://chatgpt.com', '_blank');
-            window.close();
+            GM_openInTab('https://chatgpt.com', { active: true });
+            setTimeout(() => { window.close(); }, 500);
         }, 300000); // 5 minutes
     }
     
