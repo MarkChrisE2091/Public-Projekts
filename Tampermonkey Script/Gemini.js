@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gemini Usage
 // @namespace    Browser Scripts
-// @version      1.7
+// @version      1.8
 // @description  Gemini Usage
 // @author       You
 // @match        https://gemini.google.com/*
@@ -34,10 +34,10 @@
         let count = 0;
         let intervalId = setInterval(() => {
             if (count < 5) {
-                Chat("write 100,000 words novel about time travel. you can build this iteratively");
+                Chat("write 100,000 words novel about time travel. you can build this iteratively. dont ask me question, just do it.");
                 console.log(`Execution Count: ${count}`); count++;
             } else {
-                Chat("just Help me finish the 100,000 words novel");
+                Chat("just Help me continue to finish the 100,000 words novel");
                 console.log(`Execution Count: ${count}`); count++;
             }
         }, 10000); // 10 seconds between messages
