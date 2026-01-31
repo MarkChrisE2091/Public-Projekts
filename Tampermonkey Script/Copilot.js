@@ -1,22 +1,26 @@
 // ==UserScript==
-// @name         Gemini Usage
+// @name         Copilot Usage
 // @namespace    Browser Scripts
 // @version      2.0
-// @description  Gemini Usage
+// @description  Copilot Usage
 // @author       You
-// @match        https://gemini.google.com/*
+// @match        https://copilot.microsoft.com/*
 // @grant        GM_openInTab
 // @grant        window.close
 // ==/UserScript==
 
-(function () {
+(async function () {
     "use strict";
 
     function Chat(message) {
-        let chatBox = document.querySelector('[class^="ql-editor"]');
-        chatBox.textContent = message;
+        let chatBox = document.querySelector('textarea#userInput');
+        // Set the value with native value setter (to bypass detection)
+        const valueSetter = Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set;
+        valueSetter.call(chatBox, message);
+        // Notify the page that input was entered (trigger showing submit button)
+        chatBox.dispatchEvent(new InputEvent('input', { bubbles: true }));
         // Click the submit button
-        let submitButton = document.querySelector('[aria-label="Send message"]');
+        let submitButton = document.querySelector('[aria-label="Submit message"]');
         if (submitButton) {
             setTimeout(() => { submitButton.click(); }, 500);
         } else {
@@ -27,7 +31,8 @@
     function AutoReload() {
         setInterval(() => {
             console.log("5 minutes elapsed - reloading page...");
-            window.location.replace('https://gemini.google.com/app');
+            GM_openInTab('https://copilot.microsoft.com', { active: true });
+            setTimeout(() => { window.close(); }, 500);
         }, 300000); // 5 minutes
     }
 

@@ -33,17 +33,15 @@
     function AutoReload() {
         setInterval(() => {
             console.log("5 minutes elapsed - reloading page...");
-            // window.location.replace('https://perplexity.ai');
             GM_openInTab('https://perplexity.ai', { active: true });
             setTimeout(() => { window.close(); }, 500);
         }, 300000); // 5 minutes
     }
 
-    function Start(){
+    function Start() {
         let count = 0;
         let intervalId = setInterval(() => {
-            if (count < 5){
-                // Chat("write 20,000 words novel about space, no question asked, just do it!");
+            if (count < 5) {
                 Chat("write 100,000 words novel about time travel. you can build this iteratively. dont ask me question, just do it.");
                 console.log(`Execution Count: ${count}`); count++;
             } else {
