@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Perplexity Usage
 // @namespace    Browser Scripts
-// @version      1.8
+// @version      1.9
 // @description  Perplexity Usage
 // @author       You
 // @match        https://*.perplexity.ai/*
@@ -32,7 +32,9 @@
     function AutoReload() {
         setInterval(() => {
             console.log("5 minutes elapsed - reloading page...");
-            window.location.replace('https://perplexity.ai');
+            // window.location.replace('https://perplexity.ai');
+            GM_openInTab('https://perplexity.ai', { active: true });
+            setTimeout(() => { window.close(); }, 500);
         }, 300000); // 5 minutes
     }
 
