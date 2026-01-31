@@ -5,7 +5,8 @@
 // @description  Remove modals, re-enable scrolling, and automate ChatGPT usage
 // @author       You
 // @match        https://*.chatgpt.com/*
-// @grant        none
+// @grant        GM_openInTab
+// @grant        window.close
 // ==/UserScript==
 
 (function () {

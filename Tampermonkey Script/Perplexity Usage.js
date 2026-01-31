@@ -5,7 +5,8 @@
 // @description  Perplexity Usage
 // @author       You
 // @match        https://*.perplexity.ai/*
-// @grant        none
+// @grant        GM_openInTab
+// @grant        window.close
 // ==/UserScript==
 
 (function () {
