@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Colab Keep Alive
+// @name         Colab
 // @namespace    Browser Scripts
 // @version      1.0
 // @description  Keep Colab Active
