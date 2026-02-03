@@ -92,9 +92,10 @@ openai.com##IMG[src="https://cdn.openai.com/labs/images/A van Gogh style paintin
 chatgpt.com##DIV[class^="absolute start-0 end-0"]
 claude.ai##DIV[class="flex md:px-2 flex-col-reverse"]
 claude.ai##DIV[class="flex px-1 md:px-2 flex-col-reverse"]
+claude.ai##DIV[data-alert-band-wrapper="true"]
 gptzero.me##DIV[id^="headlessui-dialog"]
 perplexity.ai##DIV[class^="bottom-md"],DIV[class^="shadow-md"],DIV[class^="items-stretch md:items-center"],DIV[class^="fixed inset-0 overflow-y-auto"]
-perplexity.ai##IFRAME[name^="__privateStripeMetrics"]
+perplexity.ai##IFRAME[name^="__privateStripeMetrics"],IFRAME[class="L5Fo6c-PQbLGe"]
 
 
 smithsfoodanddrug.com##DIV[class="with-auth"]
