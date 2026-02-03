@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Perplexity Usage
 // @namespace    Browser Scripts
-// @version      2.3
+// @version      2.4
 // @description  Perplexity Usage
 // @author       You
 // @match        https://*.perplexity.ai/*
@@ -47,14 +47,13 @@
     const INITIAL_MESSAGE = "write 100,000 words novel about time travel. you can build this iteratively. dont ask me question, just do it.";
     const FOLLOWUP_MESSAGE = "just Help me continue to finish the 100,000 words novel";
 
-    async function Start() {
+    function Start() {
         let count = 0;
-        while (true) {
+        setInterval(() => {
             const message = (count < 5) ? INITIAL_MESSAGE : FOLLOWUP_MESSAGE;
-            await Chat(message);
+            Chat(message);
             console.log(`Execution Count: ${count}`); count++;
-            await sleep(10000); // 10 seconds between messages
-        }
+        }, 10000); // 10 seconds between messages
     }
 
     AutoReload();
