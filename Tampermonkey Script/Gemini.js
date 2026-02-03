@@ -39,13 +39,14 @@
     const INITIAL_MESSAGE = "write 100,000 words novel about time travel. you can build this iteratively. dont ask me question, just do it.";
     const FOLLOWUP_MESSAGE = "just Help me continue to finish the 100,000 words novel";
 
-    function Start() {
+    async function Start() {
         let count = 0;
-        setInterval(() => {
+        while (true) {
             const message = (count < 5) ? INITIAL_MESSAGE : FOLLOWUP_MESSAGE;
-            Chat(message);
+            await Chat(message);
             console.log(`Execution Count: ${count}`); count++;
-        }, 10000); // 10 seconds between messages
+            await sleep(10000); // 10 seconds between messages
+        }
     }
 
     AutoReload();
