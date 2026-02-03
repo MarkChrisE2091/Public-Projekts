@@ -56,25 +56,26 @@
     }
 
     function AutoReload() {
-        setInterval(() => {
+        setTimeout(() => {
             console.log("5 minutes elapsed - reloading page...");
             GM_openInTab('https://chatgpt.com', { active: true });
             setTimeout(() => { window.close(); }, 500);
         }, 300000); // 5 minutes
     }
+    
+    // Messages
+    const INITIAL_MESSAGE = "write 100,000 words novel about time travel. you can build this iteratively. dont ask me question, just do it.";
+    const FOLLOWUP_MESSAGE = "just Help me continue to finish the 100,000 words novel";
 
     function Start() {
         let count = 0;
-        let intervalId = setInterval(() => {
-            if (count < 5) {
-                Chat("write 100,000 words novel about time travel. you can build this iteratively. dont ask me question, just do it.");
-                console.log(`Execution Count: ${count}`); count++;
-            } else {
-                Chat("just Help me continue to finish the 100,000 words novel");
-                console.log(`Execution Count: ${count}`); count++;
-            }
+        setInterval(() => {
+            const message = (count < 5) ? INITIAL_MESSAGE : FOLLOWUP_MESSAGE;
+            Chat(message);
+            console.log(`Execution Count: ${count}`); count++;
         }, 10000); // 10 seconds between messages
     }
+
 
     AutoReload();
     Start();
