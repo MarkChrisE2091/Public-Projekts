@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gemini Usage
 // @namespace    Browser Scripts
-// @version      2.2
+// @version      2.3
 // @description  Gemini Usage
 // @author       You
 // @match        https://gemini.google.com/*
