@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Perplexity Usage
 // @namespace    Browser Scripts
-// @version      2.1
+// @version      2.2
 // @description  Perplexity Usage
 // @author       You
 // @match        https://*.perplexity.ai/*
@@ -11,8 +11,12 @@
 
 (function () {
     "use strict";
+    
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
 
-    function Chat(message) {
+    async function Chat(message) {
         // Get the Lexical editor element
         let chatBox = document.getElementById("ask-input");
         chatBox.focus();    // Focus the editor first
@@ -24,18 +28,19 @@
         // Click the submit button
         let submitButton = document.querySelector('[aria-label="Submit"]');
         if (submitButton) {
-            setTimeout(() => { submitButton.click(); }, 500);
+            await sleep(500);
+            submitButton.click();
         } else {
             console.log("Submit button not found");
         }
     }
 
-    function AutoReload() {
-        setTimeout(() => {
-            console.log("5 minutes elapsed - reloading page...");
-            GM_openInTab('https://perplexity.ai', { active: true });
-            setTimeout(() => { window.close(); }, 500);
-        }, 300000); // 5 minutes
+    async function AutoReload() {
+        await sleep(300000); // 5 minutes
+        console.log("5 minutes elapsed - reloading page...");
+        GM_openInTab('https://perplexity.ai', { active: true });
+        await sleep(500);
+        window.close();
     }
 
     // Messages

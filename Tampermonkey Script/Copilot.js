@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Copilot Usage
 // @namespace    Browser Scripts
-// @version      2.1
+// @version      2.2
 // @description  Copilot Usage
 // @author       You
 // @match        https://copilot.microsoft.com/*
@@ -12,7 +12,11 @@
 (async function () {
     "use strict";
 
-    function Chat(message) {
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    async function Chat(message) {
         let chatBox = document.querySelector('textarea#userInput');
         // Set the value with native value setter (to bypass detection)
         const valueSetter = Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set;
@@ -22,18 +26,19 @@
         // Click the submit button
         let submitButton = document.querySelector('[aria-label="Submit message"]');
         if (submitButton) {
-            setTimeout(() => { submitButton.click(); }, 500);
+            await sleep(500);
+            submitButton.click();
         } else {
             console.log("Submit button not found");
         }
     }
 
-    function AutoReload() {
-        setTimeout(() => {
-            console.log("5 minutes elapsed - reloading page...");
-            GM_openInTab('https://copilot.microsoft.com', { active: true });
-            setTimeout(() => { window.close(); }, 500);
-        }, 300000); // 5 minutes
+    async function AutoReload() {
+        await sleep(300000); // 5 minutes
+        console.log("5 minutes elapsed - reloading page...");
+        GM_openInTab('https://copilot.microsoft.com', { active: true });
+        await sleep(500);
+        window.close();
     }
 
     // Messages

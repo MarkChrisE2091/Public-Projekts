@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ChatGPT Annoyance Removal + Auto Usage
 // @namespace    Browser Scripts
-// @version      2.1
+// @version      2.2
 // @description  Remove modals, re-enable scrolling, and automate ChatGPT usage
 // @author       You
 // @match        https://*.chatgpt.com/*
@@ -48,19 +48,23 @@
     });
 
     // ========== AUTO USAGE ==========
+    
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
 
-    function Chat(message) {
+    async function Chat(message) {
         let chatBox = document.getElementById("prompt-textarea");
         chatBox.textContent = message;
         chatBox.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true }));
     }
 
-    function AutoReload() {
-        setTimeout(() => {
-            console.log("5 minutes elapsed - reloading page...");
-            GM_openInTab('https://chatgpt.com', { active: true });
-            setTimeout(() => { window.close(); }, 500);
-        }, 300000); // 5 minutes
+    async function AutoReload() {
+        await sleep(300000); // 5 minutes
+        console.log("5 minutes elapsed - reloading page...");
+        GM_openInTab('https://chatgpt.com', { active: true });
+        await sleep(500);
+        window.close();
     }
     
     // Messages
