@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ChatGPT Annoyance Removal + Auto Usage
 // @namespace    Browser Scripts
-// @version      2.4
+// @version      2.5
 // @description  Remove modals, re-enable scrolling, and automate ChatGPT usage
 // @author       You
 // @match        https://*.chatgpt.com/*

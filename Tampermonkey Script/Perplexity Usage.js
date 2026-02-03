@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Perplexity Usage
 // @namespace    Browser Scripts
-// @version      2.4
+// @version      2.5
 // @description  Perplexity Usage
 // @author       You
 // @match        https://*.perplexity.ai/*
