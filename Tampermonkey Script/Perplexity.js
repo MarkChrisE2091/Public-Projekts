@@ -11,7 +11,7 @@
 
 (function () {
     "use strict";
-    
+
     function sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
@@ -38,9 +38,7 @@
     async function AutoReload() {
         await sleep(300000); // 5 minutes
         console.log("5 minutes elapsed - reloading page...");
-        GM_openInTab('https://perplexity.ai', { active: true });
-        await sleep(500);
-        window.close();
+        window.location.replace('https://perplexity.ai');
     }
 
     // Messages

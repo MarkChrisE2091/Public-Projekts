@@ -54,6 +54,15 @@
         }, 10000); // 10 seconds between messages
     }
 
+    async function SignupRemovel() {
+        await sleep(200000); // 3 minutes 20 seconds
+        for (let i= 0; i < 3; i++){
+            await sleep(10000); // 10 seconds
+            document.querySelector('button[data-testid="maybe-later-button"]')?.click();
+        }
+    }
+
     AutoReload();
     Start();
+    SignupRemovel();
 })();
