@@ -1,5 +1,11 @@
 [Adblock Plus 2.0]
-! ----------Unwanted page elements----------!
+! Title: Personal Filter List
+! Description: Custom filters for blocking unwanted page elements
+
+
+! ============================================================================
+! Unwanted page elements
+! ============================================================================
 fandom.com##DIV[class="mcf-wrapper"]
 fandom.com##DIV[id="articleComments"]
 fandom.com##DIV[class="notifications-box"]
@@ -277,12 +283,17 @@ www.canada.ca##IMG[class="img-responsive full-width"][src="/content/dam/ircc/ima
 www.canada.ca##A[class="btn btn-default btn-block well hght-inhrt"][href="https://www.youtube.com/watch?v=OTHVA189ntM&list=PLCA6jA0Tld_qN_acksp05SmrtPNZNAplr"]
 
 
-! ----------Unwanted URL requests----------!
+! ============================================================================
+! Unwanted URL requests
+! ============================================================================
 ||www.google.com/logos/doodles/*
 ||googletagmanager.com^
 ||dubcdn.com^
 ||ah-cdn.merge.dev^  ! Maybe Unblock this later 
 
-! ----------Unblock Exceptions----------!
+
+! ============================================================================
+! Unblock Exceptions
+! ============================================================================
 @@||investopedia.com/*^$document
 
