@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Copilot Usage
 // @namespace    Browser Scripts
-// @version      0.1
+// @version      0.2
 // @description  Copilot Usage
 // @author       You
 // @match        https://copilot.microsoft.com/*
@@ -48,19 +48,20 @@
     function Start() {
         let count = 0;
         setInterval(() => {
+            document.querySelector('button[data-testid="maybe-later-button"]')?.click();
             const message = (count < 5) ? INITIAL_MESSAGE : FOLLOWUP_MESSAGE;
             Chat(message);
             console.log(`Execution Count: ${count}`); count++;
         }, 10000); // 10 seconds between messages
     }
 
-    async function SignupRemovel() {
-        await sleep(210000); // 3 minutes 30 seconds
-        for (let i= 0; i < 4; i++){
-            await sleep(10000); // 10 seconds
-            document.querySelector('button[data-testid="maybe-later-button"]')?.click();
-        }
-    }
+    // async function SignupRemovel() {
+    //     await sleep(210000); // 3 minutes 30 seconds
+    //     for (let i= 0; i < 4; i++){
+    //         await sleep(10000); // 10 seconds
+    //         document.querySelector('button[data-testid="maybe-later-button"]')?.click();
+    //     }
+    // }
 
     AutoReload();
     Start();
