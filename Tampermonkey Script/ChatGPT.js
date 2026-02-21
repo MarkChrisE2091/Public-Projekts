@@ -69,7 +69,7 @@
     
     // Messages
     const INITIAL_MESSAGE = "write 100,000 words novel about time travel. you can build this iteratively. dont ask me question, just do it. (write 3000 more words now)";
-    const FOLLOWUP_MESSAGE = "just Help me continue to finish the 100,000 words novel (write 3000 more words now)";
+    const FOLLOWUP_MESSAGE = "just Help me start/continue to finish the 100,000 words time travel novel (write 3000 more words now)";
 
     function Start() {
         let count = 0;
