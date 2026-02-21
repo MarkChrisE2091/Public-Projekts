@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gemini Usage
 // @namespace    Browser Scripts
-// @version      0.2
+// @version      0.3
 // @description  Gemini Usage
 // @author       You
 // @match        https://gemini.google.com/*
@@ -37,7 +37,7 @@
 
     // Messages
     const INITIAL_MESSAGE = "write 100,000 words novel about time travel. you can build this iteratively. dont ask me question, just do it.";
-    const FOLLOWUP_MESSAGE = "just Help me continue to finish the 100,000 words novel";
+    const FOLLOWUP_MESSAGE = "just Help me continue to finish the 100,000 words novel (write 3000 more words now)";
 
     function Start() {
         let count = 0;
