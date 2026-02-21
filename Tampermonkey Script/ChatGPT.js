@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ChatGPT Usage
 // @namespace    Browser Scripts
-// @version      0.4
+// @version      0.5
 // @description  Remove modals and annoyance, re-enable scrolling, and automate ChatGPT usage
 // @author       You
 // @match        https://*.chatgpt.com/*
@@ -77,7 +77,7 @@
             const message = (count < 5) ? INITIAL_MESSAGE : FOLLOWUP_MESSAGE;
             Chat(message);
             console.log(`Execution Count: ${count}`); count++;
-        }, 15000); // 15 seconds between messages
+        }, 10000); // 10 seconds between messages
     }
 
     AutoReload();

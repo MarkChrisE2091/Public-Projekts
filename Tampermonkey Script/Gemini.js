@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gemini Usage
 // @namespace    Browser Scripts
-// @version      0.4
+// @version      0.5
 // @description  Gemini Usage
 // @author       You
 // @match        https://gemini.google.com/*
@@ -45,7 +45,7 @@
             const message = (count < 5) ? INITIAL_MESSAGE : FOLLOWUP_MESSAGE;
             Chat(message);
             console.log(`Execution Count: ${count}`); count++;
-        }, 15000); // 15 seconds between messages
+        }, 10000); // 10 seconds between messages
     }
 
     AutoReload();
