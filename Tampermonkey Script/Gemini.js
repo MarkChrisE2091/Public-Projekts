@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gemini Usage
 // @namespace    Browser Scripts
-// @version      0.3
+// @version      0.4
 // @description  Gemini Usage
 // @author       You
 // @match        https://gemini.google.com/*
@@ -36,7 +36,7 @@
     }
 
     // Messages
-    const INITIAL_MESSAGE = "write 100,000 words novel about time travel. you can build this iteratively. dont ask me question, just do it.";
+    const INITIAL_MESSAGE = "write 100,000 words novel about time travel. you can build this iteratively. dont ask me question, just do it. (write 3000 more words now)";
     const FOLLOWUP_MESSAGE = "just Help me continue to finish the 100,000 words novel (write 3000 more words now)";
 
     function Start() {
@@ -45,7 +45,7 @@
             const message = (count < 5) ? INITIAL_MESSAGE : FOLLOWUP_MESSAGE;
             Chat(message);
             console.log(`Execution Count: ${count}`); count++;
-        }, 10000); // 10 seconds between messages
+        }, 15000); // 15 seconds between messages
     }
 
     AutoReload();
