@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Colab
 // @namespace    Browser Scripts
-// @version      1.1
+// @version      1.2
 // @description  Keep Colab Active
 // @author       You
 // @match        https://*.colab.research.google.com/*
@@ -25,6 +25,6 @@
         document.querySelector("#top-toolbar > colab-connectbutton").shadowRoot.querySelector("#connect").click();
     }
 
-    setTimeout(RunAll, 2000)  // comment this out when use Colab seriously
+    setTimeout(RunAll, 5000)  // comment this out when use Colab seriously
     setInterval(ConnectButton, 60000);
 })();
