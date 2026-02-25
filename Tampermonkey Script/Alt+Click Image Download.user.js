@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Alt+Click Image Download
 // @namespace    http://tampermonkey.net/
-// @version      2.0
+// @version      1.0
 // @description  Alt+Click any image to download to browser's default location (handles CORS)
 // @match        *://*/*
 // @grant        GM_download

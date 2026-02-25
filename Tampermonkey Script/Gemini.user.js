@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         Perplexity Usage
+// @name         Gemini Usage
 // @namespace    Browser Scripts
-// @version      0.5
-// @description  Perplexity Usage
+// @version      1.0
+// @description  Gemini Usage
 // @author       You
-// @match        https://*.perplexity.ai/*
+// @match        https://gemini.google.com/*
 // @grant        GM_openInTab
 // @grant        window.close
 // ==/UserScript==
@@ -17,16 +17,10 @@
     }
 
     async function Chat(message) {
-        // Get the Lexical editor element
-        let chatBox = document.getElementById("ask-input");
-        chatBox.focus();    // Focus the editor first
-        // Lexical editor prevents direct text modification
-        // Working with Lexical (bypasses Lexical protection)
-        document.execCommand('selectAll');  // Select all text
-        document.execCommand('delete');     // Delete text
-        document.execCommand('insertText', false, message);  // Insert text
+        let chatBox = document.querySelector('[class^="ql-editor"]');
+        chatBox.textContent = message;
         // Click the submit button
-        let submitButton = document.querySelector('[aria-label="Submit"]');
+        let submitButton = document.querySelector('[aria-label="Send message"]');
         if (submitButton) {
             await sleep(500);
             submitButton.click();
@@ -38,7 +32,7 @@
     async function AutoReload() {
         await sleep(300000); // 5 minutes
         console.log("5 minutes elapsed - reloading page...");
-        window.location.replace('https://perplexity.ai');
+        window.location.replace('https://gemini.google.com/app');
     }
 
     // Messages

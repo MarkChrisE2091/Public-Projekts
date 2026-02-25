@@ -8,7 +8,7 @@
 // @grant        none
 // ==/UserScript==
 
-(function () {
+(async function () {
     "use strict";
 
     async function fetchContent(url) {

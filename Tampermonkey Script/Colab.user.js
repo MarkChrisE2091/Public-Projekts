@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Colab
 // @namespace    Browser Scripts
-// @version      1.2
+// @version      1.0
 // @description  Keep Colab Active
 // @author       You
 // @match        https://*.colab.research.google.com/*

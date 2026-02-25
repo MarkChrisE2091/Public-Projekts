@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Copilot Usage
 // @namespace    Browser Scripts
-// @version      0.5
+// @version      1.0
 // @description  Copilot Usage
 // @author       You
 // @match        https://copilot.microsoft.com/*
