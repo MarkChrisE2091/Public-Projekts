@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Colab
 // @namespace    Browser Scripts
-// @version      1.0
+// @version      1.1
 // @description  Keep Colab Active
 // @author       You
 // @match        https://*.colab.research.google.com/*
@@ -16,7 +16,7 @@
 
     async function RunAll() {
         document.querySelector("#top-toolbar > colab-notebook-toolbar-run-button").shadowRoot.querySelector("#toolbar-run-button").click();
-        await sleep(1000);
+        await sleep(2000);
         document.querySelector("body > mwc-dialog > md-text-button:nth-child(3)").shadowRoot.querySelector("#button").click();
     }
 
