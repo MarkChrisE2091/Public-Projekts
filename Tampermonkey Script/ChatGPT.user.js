@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ChatGPT Usage
 // @namespace    Browser Scripts
-// @version      1.0
+// @version      1.1
 // @description  Remove modals and annoyance, re-enable scrolling, and automate ChatGPT usage
 // @author       You
 // @match        https://*.chatgpt.com/*
@@ -48,7 +48,7 @@
     });
 
     // ========== AUTO USAGE ==========
-    
+
     function sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
@@ -57,6 +57,12 @@
         let chatBox = document.getElementById("prompt-textarea");
         chatBox.textContent = message;
         chatBox.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true }));
+    }
+
+    function GetLastAnswer() {
+        const messages = document.querySelectorAll('[data-message-author-role="assistant"]');
+        const answer = messages.length ? messages[messages.length - 1].innerText.trim() : '';
+        return answer;
     }
 
     async function AutoReload() {
@@ -74,7 +80,8 @@
     function Start() {
         let count = 0;
         setInterval(() => {
-            const message = (count < 5) ? INITIAL_MESSAGE : FOLLOWUP_MESSAGE;
+            const answer = GetLastAnswer();
+            const message = (count < 5) ? (INITIAL_MESSAGE + answer) : (FOLLOWUP_MESSAGE + answer);
             Chat(message);
             console.log(`Execution Count: ${count}`); count++;
         }, 10000); // 10 seconds between messages

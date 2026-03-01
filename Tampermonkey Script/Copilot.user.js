@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Copilot Usage
 // @namespace    Browser Scripts
-// @version      1.0
+// @version      1.1
 // @description  Copilot Usage
 // @author       You
 // @match        https://copilot.microsoft.com/*
@@ -33,6 +33,12 @@
         }
     }
 
+    function GetLastAnswer() {
+        const messages = document.querySelectorAll('[data-content="ai-message"], [data-testid="ai-message"]');
+        const answer = messages.length ? messages[messages.length - 1].innerText.trim() : '';
+        return answer.slice(0, 10000);
+    }
+
     async function AutoReload() {
         await sleep(300000); // 5 minutes
         console.log("5 minutes elapsed - reloading page...");
@@ -48,22 +54,14 @@
     function Start() {
         let count = 0;
         setInterval(() => {
+            const answer = GetLastAnswer();
             document.querySelector('button[data-testid="maybe-later-button"]')?.click();
-            const message = (count < 5) ? INITIAL_MESSAGE : FOLLOWUP_MESSAGE;
+            const message = (count < 5) ? (INITIAL_MESSAGE + answer) : (FOLLOWUP_MESSAGE + answer);
             Chat(message);
             console.log(`Execution Count: ${count}`); count++;
         }, 10000); // 10 seconds between messages
     }
 
-    // async function SignupRemovel() {
-    //     await sleep(210000); // 3 minutes 30 seconds
-    //     for (let i= 0; i < 4; i++){
-    //         await sleep(10000); // 10 seconds
-    //         document.querySelector('button[data-testid="maybe-later-button"]')?.click();
-    //     }
-    // }
-
     AutoReload();
     Start();
-    SignupRemovel();
 })();

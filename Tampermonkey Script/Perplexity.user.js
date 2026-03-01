@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Perplexity Usage
 // @namespace    Browser Scripts
-// @version      1.0
+// @version      1.1
 // @description  Perplexity Usage
 // @author       You
 // @match        https://*.perplexity.ai/*
@@ -35,6 +35,12 @@
         }
     }
 
+    function GetLastAnswer() {
+        const messages = document.querySelectorAll('[id^="markdown-content-"]');
+        const answer = messages.length ? messages[messages.length - 1].innerText.trim() : '';
+        return answer;
+    }
+
     async function AutoReload() {
         await sleep(300000); // 5 minutes
         console.log("5 minutes elapsed - reloading page...");
@@ -48,7 +54,8 @@
     function Start() {
         let count = 0;
         setInterval(() => {
-            const message = (count < 5) ? INITIAL_MESSAGE : FOLLOWUP_MESSAGE;
+            const answer = GetLastAnswer();
+            const message = (count < 5) ? (INITIAL_MESSAGE + answer) : (FOLLOWUP_MESSAGE + answer);
             Chat(message);
             console.log(`Execution Count: ${count}`); count++;
         }, 10000); // 10 seconds between messages
