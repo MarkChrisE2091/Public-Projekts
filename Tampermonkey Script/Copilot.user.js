@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Copilot Usage
 // @namespace    Browser Scripts
-// @version      1.2
+// @version      1.3
 // @description  Copilot Usage
 // @author       You
 // @match        https://copilot.microsoft.com/*
@@ -39,6 +39,10 @@
         return answer.slice(0, 10000);
     }
 
+    function PopUpRemoval() {
+        document.querySelector('button[data-testid="maybe-later-button"]')?.click();
+    }
+
     async function AutoReload() {
         await sleep(300000); // 5 minutes
         console.log("5 minutes elapsed - reloading page...");
@@ -54,7 +58,7 @@
     function Start() {
         let count = 0;
         setInterval(() => {
-            document.querySelector('button[data-testid="maybe-later-button"]')?.click();
+            PopUpRemoval();
             const answer = GetLastAnswer();
             const message = (count < 5) ? (INITIAL_MESSAGE + answer) : (FOLLOWUP_MESSAGE + answer);
             Chat(message);
