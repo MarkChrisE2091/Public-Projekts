@@ -103,10 +103,7 @@ claude.ai##DIV[class="hidden min-[500px]:flex justify-center items-center w-full
 gptzero.me##DIV[id^="headlessui-dialog"]
 perplexity.ai##DIV[class^="bottom-md"],DIV[class^="shadow-md"],DIV[class^="items-stretch md:items-center"],DIV[class^="fixed inset-0 overflow-y-auto"]
 perplexity.ai##IFRAME[name^="__privateStripeMetrics"],IFRAME[class="L5Fo6c-PQbLGe"]
-perplexity.ai##div[role="dialog"][aria-modal="true"]
-perplexity.ai##div.fixed.inset-0.bg-backdrop\/70
-perplexity.ai##div.fixed.inset-0.overflow-y-auto.flex.items-center.justify-center
-perplexity.ai##div.animate-in.fade-in.zoom-in-\[0\.98\].ease-in.fill-mode-backwards
+perplexity.ai##DIV[role="dialog"][aria-modal="true"],DIV[class*="bg-backdrop"],DIV[class*="backdrop-blur-sm"]
 
 
 smithsfoodanddrug.com##DIV[class="with-auth"]
