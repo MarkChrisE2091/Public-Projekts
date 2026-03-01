@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Perplexity Usage
 // @namespace    Browser Scripts
-// @version      1.1
+// @version      1.2
 // @description  Perplexity Usage
 // @author       You
 // @match        https://*.perplexity.ai/*
@@ -54,6 +54,7 @@
     function Start() {
         let count = 0;
         setInterval(() => {
+            document.querySelector('button[aria-label="Close"]')?.click();
             const answer = GetLastAnswer();
             const message = (count < 5) ? (INITIAL_MESSAGE + answer) : (FOLLOWUP_MESSAGE + answer);
             Chat(message);

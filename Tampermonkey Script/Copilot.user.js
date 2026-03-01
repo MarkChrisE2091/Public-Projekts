@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Copilot Usage
 // @namespace    Browser Scripts
-// @version      1.1
+// @version      1.2
 // @description  Copilot Usage
 // @author       You
 // @match        https://copilot.microsoft.com/*
@@ -54,8 +54,8 @@
     function Start() {
         let count = 0;
         setInterval(() => {
-            const answer = GetLastAnswer();
             document.querySelector('button[data-testid="maybe-later-button"]')?.click();
+            const answer = GetLastAnswer();
             const message = (count < 5) ? (INITIAL_MESSAGE + answer) : (FOLLOWUP_MESSAGE + answer);
             Chat(message);
             console.log(`Execution Count: ${count}`); count++;
