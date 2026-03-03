@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ChatGPT Usage
 // @namespace    Browser Scripts
-// @version      1.3
+// @version      1.4
 // @description  Remove modals and annoyance, re-enable scrolling, and automate ChatGPT usage
 // @author       You
 // @match        https://*.chatgpt.com/*
@@ -47,6 +47,19 @@
         attributeFilter: ["style", "data-scroll-locked"],
     });
 
+    function TurnOffDataSharing() {
+        if (!location.hash.startsWith("#settings/DataControls")) { location.replace("https://chatgpt.com/#settings/DataControls"); }
+
+        const observer = new MutationObserver(() => {
+            document.querySelector('button[aria-label="Improve the model for everyone"][aria-checked="true"]')?.click();
+            const closeBtn = document.querySelector('button[data-testid="close-button"]');
+            if (closeBtn) { closeBtn.click(); observer.disconnect(); }
+        });
+        observer.observe(document.body, { childList: true, subtree: true });
+    }
+
+    TurnOffDataSharing();
+
     // ========== AUTO USAGE ==========
 
     function sleep(ms) {
@@ -72,7 +85,7 @@
         await sleep(500);
         window.close();
     }
-    
+
     // Messages
     const INITIAL_MESSAGE = "write 100,000 words novel about time travel. you can build this iteratively. dont ask me question, just do it. (write 3000 more words now)";
     const FOLLOWUP_MESSAGE = "just Help me start/continue to finish the 100,000 words time travel novel (write 3000 more words now)";
