@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ChatGPT Usage
 // @namespace    Browser Scripts
-// @version      1.4
+// @version      1.5
 // @description  Remove modals and annoyance, re-enable scrolling, and automate ChatGPT usage
 // @author       You
 // @match        https://*.chatgpt.com/*

@@ -4,7 +4,7 @@
 
 
 ! ============================================================================
-! Unwanted page elements
+! Cosmetic filters: Block unwanted page elements
 ! ============================================================================
 fandom.com##DIV[class="mcf-wrapper"]
 fandom.com##DIV[id="articleComments"]
@@ -285,7 +285,7 @@ www.canada.ca##A[class="btn btn-default btn-block well hght-inhrt"][href="https:
 
 
 ! ============================================================================
-! Unwanted URL requests
+! Network filters: Block unwanted URL requests
 ! ============================================================================
 ||www.google.com/logos/doodles/*
 ||googletagmanager.com^
@@ -294,7 +294,14 @@ www.canada.ca##A[class="btn btn-default btn-block well hght-inhrt"][href="https:
 
 
 ! ============================================================================
-! Unblock Exceptions
+! Exception filters: Unblock Exceptions
 ! ============================================================================
 @@||investopedia.com/*^$document
+
+
+! ============================================================================
+! Scriptlet filters: Use custom JavaScript to defeat complex ads
+! ============================================================================
+google.com#$#log 'Hello World 123'
+
 

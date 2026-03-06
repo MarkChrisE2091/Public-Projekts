@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Perplexity Usage
 // @namespace    Browser Scripts
-// @version      1.4
+// @version      1.5
 // @description  Perplexity Usage
 // @author       You
 // @match        https://*.perplexity.ai/*
@@ -41,12 +41,6 @@
         return answer;
     }
 
-    function PopUpRemoval() {
-        document.querySelector('button[aria-label="Close"]')?.click();
-        [...document.querySelectorAll('button')].find(b => b.textContent.includes('Back home'))?.click();
-        [...document.querySelectorAll('button')].find(b => b.innerText.trim() === 'Close')?.click();
-    }
-
     async function AutoReload() {
         await sleep(300000); // 5 minutes
         console.log("5 minutes elapsed - reloading page...");
@@ -60,7 +54,6 @@
     function Start() {
         let count = 0;
         setInterval(() => {
-            PopUpRemoval();
             const answer = GetLastAnswer();
             const message = (count < 5) ? (INITIAL_MESSAGE + answer) : (FOLLOWUP_MESSAGE + answer);
             Chat(message);
