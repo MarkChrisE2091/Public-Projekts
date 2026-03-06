@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Perplexity Usage
 // @namespace    Browser Scripts
-// @version      1.5
+// @version      1.6
 // @description  Perplexity Usage
 // @author       You
 // @match        https://*.perplexity.ai/*
@@ -38,7 +38,7 @@
     function GetLastAnswer() {
         const messages = document.querySelectorAll('[id^="markdown-content-"]');
         const answer = messages.length ? messages[messages.length - 1].innerText.trim() : '';
-        return answer;
+        return answer.slice(0, 30000);
     }
 
     async function AutoReload() {
