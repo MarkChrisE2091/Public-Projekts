@@ -74,7 +74,7 @@
     function GetLastAnswer() {
         const messages = document.querySelectorAll('[data-message-author-role="assistant"]');
         const answer = messages.length ? messages[messages.length - 1].innerText.trim() : '';
-        return answer;
+        return answer.slice(0, 60000);
     }
 
     async function AutoReload() {
