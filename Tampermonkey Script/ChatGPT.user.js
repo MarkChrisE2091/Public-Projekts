@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ChatGPT Usage
 // @namespace    Browser Scripts
-// @version      1.8
+// @version      1.9
 // @description  Remove modals and annoyance, re-enable scrolling, and automate ChatGPT usage
 // @author       You
 // @match        https://*.chatgpt.com/*
@@ -52,7 +52,7 @@
         await sleep(2000)
 
         const observer = new MutationObserver(() => {
-            document.querySelector('button[aria-label="Improve the model for everyone"][aria-checked="true"]')?.click();
+            document.querySelector('button[aria-labelledby="_r_2t_"][aria-checked="true"]')?.click();
             const closeBtn = document.querySelector('button[data-testid="close-button"]');
             if (closeBtn) { closeBtn.click(); observer.disconnect(); }
         });
