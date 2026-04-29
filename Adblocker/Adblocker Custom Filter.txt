@@ -86,6 +86,7 @@ masterclass.com##DIV[class^="ConversationWindow-module"],DIV[class^="Conversatio
 bestbuy.com##SPAN[class="blue-assist-minimized-beacon"]
 amazon.com##DIV[id="PrimeStripe"]
 amazon.com##DIV[id="prominentUpsellSlotCard"]
+logitechg.com##DIV[role="dialog"]
 companiesmarketcap.com##TR[class="ad-tr no-sort"],DIV[class="b-container1"],DIV[align="center"]
 finviz.com##DIV[id="IC_D_3x3_1"],DIV[id="banner_position"]
 investing.com##DIV[id="Most_Popular_Opinions"],DIV[id="PromoteSignUpPopUp"],SECTION[id="theBottom"]
