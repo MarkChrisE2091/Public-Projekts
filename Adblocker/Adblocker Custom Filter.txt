@@ -106,7 +106,9 @@ gptzero.me##DIV[id^="headlessui-dialog"]
 perplexity.ai##DIV[class^="bottom-md"],DIV[class^="shadow-md"],DIV[class^="items-stretch md:items-center"],DIV[class*="fixed"][class*="inset-0"][class*="bg-backdrop"]
 perplexity.ai##IFRAME[name^="__privateStripeMetrics"],IFRAME[class="L5Fo6c-PQbLGe"]
 perplexity.ai##[role="dialog"][aria-modal="true"]
-
+perplexity.ai##DIV[class="overflow-hidden rounded-xl border transition-opacity border-subtlest ring-subtlest divide-subtlest bg-raised"]
+perplexity.ai##DIV[class="px-sm md:px-md min-h-8 pb-xs flex flex-wrap items-center justify-between gap-sm"]
+perplexity.ai##DIV[class="relative border rounded-xl border-subtlest ring-subtlest divide-subtlest bg-raised"]
 
 smithsfoodanddrug.com##DIV[class="with-auth"]
 targetoptical.com##PICTURE[class="d-flex background"]
