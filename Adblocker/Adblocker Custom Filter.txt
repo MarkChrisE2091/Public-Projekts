@@ -8,6 +8,7 @@
 ! ============================================================================
 fandom.com##DIV[class="mcf-wrapper"]
 fandom.com##DIV[id="articleComments"]
+fandom.com##DIV[id="article-discussions"]
 fandom.com##DIV[class="notifications-box"]
 fandom.com##DIV[class="recirculation-prefooter"]
 fandom.com##ASIDE[class="page__right-rail"]
