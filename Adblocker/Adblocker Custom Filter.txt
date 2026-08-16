@@ -62,6 +62,15 @@ instagram.com##DIV[class="x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf x2lah0s x193i
 x.com##DIV[aria-label="Trending"]
 reddit.com##[id="modal-dialog"]
 reddit.com##DIV[style="position: fixed; inset: 0px; backdrop-filter: blur(4px);"]
+! Reddit login/signup modal
+reddit.com##div#desktop-dynamic-upsell-dialog
+reddit.com##[id="desktop-dynamic-upsell-dialog"]
+! Restore scrolling after hiding Reddit login modal (Universal)
+reddit.com#$#html { overflow: auto !important; }
+reddit.com#$#body { overflow: auto !important; }
+! Restore scrolling after hiding Reddit login modal (uBlock Syntax)
+reddit.com##html:style(overflow: auto !important;)
+reddit.com##body:style(overflow: auto !important;)
 reddit.com##DIV[id="left-sidebar-container"]
 wikihow.com##DIV[class="sidebox sidebox-articles"]
 imdb.com##DIV[class="sc-417cfe9-3 cKgNlH"]
