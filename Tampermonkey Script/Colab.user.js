@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Colab
 // @namespace    Browser Scripts
-// @version      1.1
+// @version      1.2
 // @description  Keep Colab Active
 // @author       You
 // @match        https://*.colab.research.google.com/*
@@ -16,7 +16,7 @@
 
     async function RunAll() {
         document.querySelector("#top-toolbar > colab-notebook-toolbar-run-button").shadowRoot.querySelector("#toolbar-run-button").click();
-        await sleep(2000);
+        await sleep(5000);
         document.querySelector("body > mwc-dialog > md-text-button:nth-child(3)").shadowRoot.querySelector("#button").click();
     }
 
@@ -25,6 +25,6 @@
         document.querySelector("#top-toolbar > colab-connectbutton").shadowRoot.querySelector("#connect").click();
     }
 
-    setTimeout(RunAll, 5000)  // comment this out when use Colab seriously
-    setInterval(ConnectButton, 60000);
+    setTimeout(RunAll, 100 * 1000)  // comment this out when use Colab seriously
+    setInterval(ConnectButton, 60 * 1000);
 })();
